@@ -1,3 +1,70 @@
 /* ==========================================================================
  * Layout
  * ========================================================================== */
+
+
+#about
+	.container
+		@include pad()
+	.right-col
+		text-align: center
+	@include media(min-width 53.75em)
+		@include direction-context(right-to-left)
+		.left-col
+			@include span-columns(7)
+			float: left
+		.middle-col
+			@include span-columns(1)
+			float: right
+		.right-col
+			@include span-columns(4)
+			float: right
+			@include omega()
+
+#info
+	.container
+		@include pad()
+	@include media(min-width 53.75em)
+		.col
+			@include span-columns(3)
+		.col:last-child
+			@include omega()
+	@include media(min-width 30em max-width 53.75em)
+		.col
+			@include span-columns(6)
+		.col:nth-child(even)
+			@include omega()
+	@include media(max-width 30em)
+		.col
+			@include span-columns(12)
+
+#member-events
+	.container
+		@include pad()
+	@include media(min-width 53.75em)
+		.left-col
+			@include span-columns(6)
+		.right-col
+			@include span-columns(6)
+			@include omega()
+		.full
+			@include span-columns(12)
+			@include omega()
+
+#social
+	.container
+		@include pad()
+	.left-col
+		@include span-columns(6)
+	.right-col
+		@include span-columns(6)
+		@include omega()
+
+#special-thanks
+	.container
+		@include pad()
+	.left-col
+		@include span-columns(6)
+	.right-col
+		@include span-columns(6)
+		@include omega()
