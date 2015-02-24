@@ -1,0 +1,35 @@
+/*
+ * Extend
+ */
+
+.absolute-center
+	left: 50%
+	height: 500px
+	margin-left: -250px
+	margin-top: -250px
+	position: absolute
+	top: 50%
+	width: 500px
+.img-as-content
+	display: block
+	height: 0
+	overflow: hidden
+	width: 0
+
+$black: #000
+$white: #fff
+$text: #444
+
+@mixin border-radius($radius)
+	-webkit-border-radius: $radius
+	-moz-border-radius: $radius
+	-ms-border-radius: $radius
+	-o-border-radius: $radius
+	border-radius: $radius
+
+@mixin transform($transform-property)
+	-webkit-transform: $transform-property
+	-moz-transform: $transform-property
+	-ms-transform: $transform-property
+	-o-transform: $transform-property
+	transform: $transform-property
