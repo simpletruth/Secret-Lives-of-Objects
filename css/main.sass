@@ -1,3 +1,55 @@
 /* ==========================================================================
  * Home
  * ========================================================================== */
+
+body
+	background: #000
+	color: #eee
+
+h1, h2, h3, h4, h5, h6
+	font-family: $oswald
+	color: $yellow
+	font-weight: 700
+	text-transform: uppercase
+
+p, li, ol, input, label, dl, dt, dd, td
+	font-family: $ubuntu
+	font-weight: 400
+
+#about
+	.left-col
+		@include span-columns(7)
+	.middle-col
+		@include span-columns(1)
+	.right-col
+		@include span-columns(4)
+		@include omega()
+		@include pad()
+
+#about
+	.signature
+		display: block
+		width: 378px
+
+#info
+	.col
+		@include span-columns(3)
+	.col:last-child
+		@include omega()
+
+#info
+	overflow: hidden
+	position: relative
+	margin-top: -30px
+	z-index: 1
+	.tilted-background
+		@include transform(rotate(-3.75deg))
+		background: $yellow
+		height: 500px
+		position: absolute
+		left: -50%
+		top: 15%
+		width: 200%
+		z-index: -10
+	h3, p
+		color: #000
