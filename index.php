@@ -101,7 +101,7 @@
 					<a href="" class="yellow-button" target="_blank">Members: RSVP here</a>
 				</article>
 				<div class="full">
-					<a href="" class="membership-button" target="_blank">Want exclusive access? <span>Become a member.</span></a>
+					<a href="/join" class="membership-button" target="_blank">Want exclusive access? <span>Become a member.</span></a>
 				</div>
 			</div>
 		</section>
@@ -125,11 +125,15 @@
 			<div class="container">
 				<h2>Special thanks</h2>
 				<div class="left-col">
-					<img src="img/manual-cinema.png" alt="Manual Cinema">
-					<p>Manuel Cinema will bring various secrets to life through a combination of handmade shadow puppetry, cinematic motifs, and original sound effects and music.</p>
+					<div class="img-wrap">
+						<img src="img/manual-cinema.png" alt="Manual Cinema">
+					</div>
+					<p><a href="http://manualcinema.com/" target="blank">Manual Cinema</a> will bring various secrets to life through a combination of handmade shadow puppetry, cinematic motifs, and original sound effects and music.</p>
 				</div>
 				<div class="right-col">
-					<?php include('img/cpd.svg.php'); ?>
+					<div class="img-wrap">
+						<?php include('img/cpd.svg.php'); ?>
+					</div>
 					<p>The Chicago History Museum gratefully acknowledges the support of the Chicago Park District on behalf of the people of Chicago.</p>
 				</div>
 			</div>
@@ -143,6 +147,7 @@
 				<a href="" class="yellow-button">Press Room</a>
 			</div>
 		</section>
+
 	</div>
 
     <?php include('inc/footer.php'); ?>

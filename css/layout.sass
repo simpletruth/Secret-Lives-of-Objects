@@ -58,7 +58,7 @@
 
 #member-events
 	.container
-		@include pad()
+		@include pad(0 auto)
 	@include media(min-width 53.75em)
 		.left-col
 			@include span-columns(6)
@@ -68,8 +68,12 @@
 			@include omega()
 		.full
 			@include span-columns(12)
-			@include omega()
-	@include media(max-width 53.75em)
+	@include media(min-width 30em max-width 53.75em)
+		.right-col, .left-col
+			@include span-columns(12)
+		.full
+			@include span-columns(11)
+	@include media(max-width 30em)
 		.right-col, .left-col
 			@include span-columns(10)
 			@include shift(1)
@@ -77,17 +81,45 @@
 #social
 	.container
 		@include pad()
-	.left-col
-		@include span-columns(6)
-	.right-col
-		@include span-columns(6)
-		@include omega()
+	@include media(min-width 53.75em)
+		.left-col
+			@include span-columns(5.5)
+		.right-col
+			@include span-columns(6)
+			@include shift(.5)
+			@include omega()
+	@include media(max-width 53.75em)
+		.left-col
+			@include span-columns(10)
+			@include shift(1)
+		.right-col
+			@include span-columns(12)
 
 #special-thanks
 	.container
 		@include pad()
-	.left-col
-		@include span-columns(6)
-	.right-col
-		@include span-columns(6)
-		@include omega()
+	@include media(min-width 30em)
+		.left-col
+			@include pad(.5em)
+			@include span-columns(5)
+			@include shift(.5)
+		.right-col
+			@include pad(.5em)
+			@include span-columns(5)
+			@include shift()
+			@include omega()
+	@include media(max-width 30em)
+		.left-col
+			@include span-columns(10)
+			@include shift(1)
+		.right-col
+			@include span-columns(10)
+			@include shift(1)
+
+#press
+	.container
+		@include pad(0)
+	@include media(max-width 30em)
+		.container
+			@include span-columns(10)
+			@include shift(1)

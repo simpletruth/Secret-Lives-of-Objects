@@ -1,4 +1,4 @@
-<svg version="1.1" id="_x3C_Layer_x3E_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+<svg version="1.1" id="cpd-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 76.5 75.7" enable-background="new 0 0 76.5 75.7" width="100" height="100" xml:space="preserve">
 <g>
 	<path fill="#F6D72B" d="M72.9,21.7C68.8,12.6,59.6,4.9,50.6,2c-6.4-2.2-13.1-2.5-19.8-1.4C24.2,2.1,18,5.1,12.7,9.4

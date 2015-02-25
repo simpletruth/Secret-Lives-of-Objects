@@ -15,7 +15,7 @@
   		<ul id="navigation-menu">
   			<li class="nav-link"><a href="#about">About</a></li>
 	        <li class="nav-link"><a href="#info">Directions &amp; Pricing</a></li>
-	        <li class="nav-link"><a href="#members">Members</a></li>
+	        <li class="nav-link"><a href="#member-events">Members</a></li>
 	        <li class="nav-link"><a href="#social">Social</a></li>
 	        <li class="nav-link"><a href="#special-thanks">Special Thanks</a></li>
   		</ul>

@@ -20,10 +20,18 @@ header#navigation
 		li a
 			font-size: 14px
 			text-transform: uppercase
-			padding-right: .25em
+			padding-right: 0
+		li:last-child a
+			padding-right: 1.5em
 		li a:hover,
 		li.active a
 			color: $yellow
+	@include media(min-width 53.75em max-width 58em)
+		.nav
+			li
+				padding-left: 9px
+				a
+					font-size: 13px
 
 footer
 	background-color: #001111
