@@ -6,10 +6,6 @@ body
 	background: #000
 	color: #eee
 
-#master-container
-	overflow: hidden
-	width: 100%
-
 h1, h2, h3, h4, h5, h6
 	font-family: $oswald
 	color: $yellow
@@ -23,8 +19,41 @@ p, li, ol, input, label, dl, dt, dd, td
 strong
 	font-weight: 700
 
+em
+	font-style: italic
+
+a.yellow-button,
+a.black-button
+	display: inline-block
+	padding: .65em 1em .45em
+	position: relative
+	&::after
+		background: #000
+		content: '\00bb'
+		display: block
+		height: 100%
+		font-size: 1.3em
+		padding: 6px 12px
+		position: absolute
+		text-align: center
+		top: 0
+		right: -40px
+		width: 40px
+
+a.yellow-button
+	background: $yellow
+	color: #000
+	&::after
+		background: #cab023
+
+a.black-button
+	background: #222
+	color: #fff
+	&::after
+		background: #000
+
 .tilted-background
-	@include transform(rotate(-3.75deg))
+	@include transform(rotate(-3deg))
 	background: #222
 	position: absolute
 	left: -50%
@@ -34,38 +63,134 @@ strong
 	width: 200%
 	z-index: -10
 
+
+/* ==========================================================================
+ * About
+ * ========================================================================== */
+
 #about
 	.signature
 		display: block
-		width: 378px
+		width: 100%
+		max-width: 378px
+	svg
+		height: auto
+		width: 100%
+
+
+/* ==========================================================================
+ * Info (First yellow block)
+ * ========================================================================== */
 
 #info
 	position: relative
 	margin-top: -30px
 	z-index: 1
 	.tilted-background
-		@include transform(rotate(-3.75deg))
+		@include transform(rotate(-3deg))
 		background: $yellow
 		height: 100%
 		min-height: 400px
+		top: 5%
 		z-index: -10
 	.container
-		padding-top: 50px
+		padding-top: 0px
 		padding-bottom: 50px
-		h3, p
+		h3
 			color: #000
+			margin-top: 1.2em
+			margin-bottom: .8em
+		p
+			color: #000
+			line-height: 1.8
+			strong
+				display: inline-block
+				line-height: 1.4
+		a.black-button
+			margin: 1em 0
+	@include media(min-width 53.75em max-width 64em)
+		.col
+			height: 330px
+			position: relative
+		a.black-button
+			bottom: 0
+			position: absolute
+	@include media(min-width 64em)
+		.col
+			height: 290px
+			position: relative
+		a.black-button
+			bottom: 0
+			position: absolute
+
+
+/* ==========================================================================
+ * Member events
+ * ========================================================================== */
 
 #member-events
 	h2
+		font-size: em(38)
 		text-align: center
+		margin: 0 auto 1.5em
+	h3
+		color: #fff
+		font-size: em(24)
+		margin-bottom: 1em
+	.left-col, .right-col
+		margin-bottom: 2.5em
 	.full
 		text-align: right
+	a.yellow-button
+		margin: 1em 0
+	a.membership-button
+		color: #fff
+		display: inline-block
+		font-family: $oswald
+		font-size: em(28)
+		font-weight: 700
+		line-height: 1.2
+		margin: 1em 0
+		text-align: right
+		text-transform: uppercase
+		padding: 5px 1em
+		position: relative
+		span
+			display: block
+			color: $yellow
+		&::after
+			color: $yellow
+			content: '\00bb'
+			font-size: em(38)
+			font-family: $ubuntu
+			font-weight: 300
+			position: absolute
+			right: -.25em
+			top: -.11em
+	@include media(max-width 33.75em)
+		h2
+			margin: 1em auto 1.5em
+		.full
+			@include pad(1em 0 3em)
+			text-align: center
+			a.membership-button
+				font-size: em(22)
+				padding: 5px 1em
+				margin: 0 auto
+				&::after
+					font-size: em(38)
+					right: -.25em
+					top: -.09em
+
+/* ==========================================================================
+ * Social
+ * ========================================================================== */
 
 #social
 	position: relative
 	z-index: 1
 	.tilted-background
-		@include transform(rotate(3.75deg))
+		@include transform(rotate(3deg))
 		z-index: -10
 	.container
 		padding-top: 100px
@@ -80,6 +205,22 @@ strong
 			font-size: .85em
 			text-transform: uppercase
 			text-align: right
+		a.social
+			border: 3px solid $yellow
+			display: inline-block
+			height: 120px
+			margin-right: .5em
+			padding: 8px
+			width: 120px
+			svg
+				height: 100px
+				width: 100px
+
+
+
+/* ==========================================================================
+ * Special thanks
+ * ========================================================================== */
 
 #special-thanks
 	h2
@@ -88,6 +229,11 @@ strong
 		text-align: center
 	.right-col
 		text-align: center
+
+
+/* ==========================================================================
+ * Press
+ * ========================================================================== */
 
 #press
 	text-align: center

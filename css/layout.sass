@@ -2,13 +2,18 @@
  * Layout
  * ========================================================================== */
 
+#master-container
+	overflow: hidden
+	width: 100%
+	@include media(max-width 53.75em)
+	@include pad()
 
 #about
 	.container
 		@include pad()
 	.right-col
 		text-align: center
-	@include media(min-width 53.75em)
+	@include media(min-width 36em)
 		@include direction-context(right-to-left)
 		.left-col
 			@include span-columns(7)
@@ -20,6 +25,10 @@
 			@include span-columns(4)
 			float: right
 			@include omega()
+	@include media(max-width 36em)
+		.left-col, .right-col
+			@include span-columns(10)
+			@include shift(1)
 
 #info
 	.container
@@ -27,8 +36,16 @@
 	@include media(min-width 53.75em)
 		.col
 			@include span-columns(3)
-		.col:last-child
+		.col:nth-child(1n)
+			@include span-columns(3.5)
+		.col:nth-child(2n)
+			@include span-columns(2.5)
+		.col:nth-child(3n)
+			@include span-columns(3)
+		.col:nth-child(4n)
+			@include span-columns(3)
 			@include omega()
+
 	@include media(min-width 30em max-width 53.75em)
 		.col
 			@include span-columns(6)
@@ -36,7 +53,8 @@
 			@include omega()
 	@include media(max-width 30em)
 		.col
-			@include span-columns(12)
+			@include span-columns(10)
+			@include shift(1)
 
 #member-events
 	.container
@@ -45,11 +63,16 @@
 		.left-col
 			@include span-columns(6)
 		.right-col
-			@include span-columns(6)
+			@include span-columns(5.5)
+			@include shift(.5)
 			@include omega()
 		.full
 			@include span-columns(12)
 			@include omega()
+	@include media(max-width 53.75em)
+		.right-col, .left-col
+			@include span-columns(10)
+			@include shift(1)
 
 #social
 	.container

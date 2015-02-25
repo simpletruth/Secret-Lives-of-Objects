@@ -2462,11 +2462,16 @@ footer.footer ul.social li a:hover {
 /* ==========================================================================
  * Layout
  * ========================================================================== */
+#master-container {
+  overflow: hidden;
+  width: 100%;
+  padding: 2.3576515979%; }
+
 #about .container {
   padding: 2.3576515979%; }
 #about .right-col {
   text-align: center; }
-@media screen and (min-width: 53.75em) {
+@media screen and (min-width: 36em) {
   #about .left-col {
     float: left;
     display: block;
@@ -2492,6 +2497,15 @@ footer.footer ul.social li a:hover {
     margin-right: 0; }
     #about .right-col:last-child {
       margin-right: 0; } }
+@media screen and (max-width: 36em) {
+  #about .left-col, #about .right-col {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 82.9403914003%;
+    margin-left: 8.5298042998%; }
+    #about .left-col:last-child, #about .right-col:last-child {
+      margin-right: 0; } }
 
 #info .container {
   padding: 2.3576515979%; }
@@ -2503,8 +2517,35 @@ footer.footer ul.social li a:hover {
     width: 23.2317613015%; }
     #info .col:last-child {
       margin-right: 0; }
-  #info .col:last-child {
-    margin-right: 0; } }
+  #info .col:nth-child(1n) {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 27.4966634515%; }
+    #info .col:nth-child(1n):last-child {
+      margin-right: 0; }
+  #info .col:nth-child(2n) {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 18.9668591516%; }
+    #info .col:nth-child(2n):last-child {
+      margin-right: 0; }
+  #info .col:nth-child(3n) {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%; }
+    #info .col:nth-child(3n):last-child {
+      margin-right: 0; }
+  #info .col:nth-child(4n) {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%;
+    margin-right: 0; }
+    #info .col:nth-child(4n):last-child {
+      margin-right: 0; } }
 @media screen and (min-width: 30em) and (max-width: 53.75em) {
   #info .col {
     float: left;
@@ -2520,7 +2561,8 @@ footer.footer ul.social li a:hover {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
-    width: 100%; }
+    width: 82.9403914003%;
+    margin-left: 8.5298042998%; }
     #info .col:last-child {
       margin-right: 0; } }
 
@@ -2538,7 +2580,8 @@ footer.footer ul.social li a:hover {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
-    width: 48.821174201%;
+    width: 44.5562720511%;
+    margin-left: 4.2649021499%;
     margin-right: 0; }
     #member-events .right-col:last-child {
       margin-right: 0; }
@@ -2549,6 +2592,15 @@ footer.footer ul.social li a:hover {
     width: 100%;
     margin-right: 0; }
     #member-events .full:last-child {
+      margin-right: 0; } }
+@media screen and (max-width: 53.75em) {
+  #member-events .right-col, #member-events .left-col {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 82.9403914003%;
+    margin-left: 8.5298042998%; }
+    #member-events .right-col:last-child, #member-events .left-col:last-child {
       margin-right: 0; } }
 
 #social .container {
@@ -2638,10 +2690,6 @@ body {
   background: #000;
   color: #eee; }
 
-#master-container {
-  overflow: hidden;
-  width: 100%; }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald", "Helvetica Neue", Tahoma, sans-serif;
   color: #f6d72b;
@@ -2655,12 +2703,46 @@ p, li, ol, input, label, dl, dt, dd, td {
 strong {
   font-weight: 700; }
 
+em {
+  font-style: italic; }
+
+a.yellow-button,
+a.black-button {
+  display: inline-block;
+  padding: 0.65em 1em 0.45em;
+  position: relative; }
+  a.yellow-button::after,
+  a.black-button::after {
+    background: #000;
+    content: "»";
+    display: block;
+    height: 100%;
+    font-size: 1.3em;
+    padding: 6px 12px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: -40px;
+    width: 40px; }
+
+a.yellow-button {
+  background: #f6d72b;
+  color: #000; }
+  a.yellow-button::after {
+    background: #cab023; }
+
+a.black-button {
+  background: #222;
+  color: #fff; }
+  a.black-button::after {
+    background: #000; }
+
 .tilted-background {
-  -webkit-transform: rotate(-3.75deg);
-  -moz-transform: rotate(-3.75deg);
-  -ms-transform: rotate(-3.75deg);
-  -o-transform: rotate(-3.75deg);
-  transform: rotate(-3.75deg);
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
   background: #222;
   position: absolute;
   left: -50%;
@@ -2670,44 +2752,133 @@ strong {
   width: 200%;
   z-index: -10; }
 
+/* ==========================================================================
+ * About
+ * ========================================================================== */
 #about .signature {
   display: block;
-  width: 378px; }
+  width: 100%;
+  max-width: 378px; }
+#about svg {
+  height: auto;
+  width: 100%; }
 
+/* ==========================================================================
+ * Info (First yellow block)
+ * ========================================================================== */
 #info {
   position: relative;
   margin-top: -30px;
   z-index: 1; }
   #info .tilted-background {
-    -webkit-transform: rotate(-3.75deg);
-    -moz-transform: rotate(-3.75deg);
-    -ms-transform: rotate(-3.75deg);
-    -o-transform: rotate(-3.75deg);
-    transform: rotate(-3.75deg);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
     background: #f6d72b;
     height: 100%;
     min-height: 400px;
+    top: 5%;
     z-index: -10; }
   #info .container {
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 50px; }
-    #info .container h3, #info .container p {
-      color: #000; }
+    #info .container h3 {
+      color: #000;
+      margin-top: 1.2em;
+      margin-bottom: 0.8em; }
+    #info .container p {
+      color: #000;
+      line-height: 1.8; }
+      #info .container p strong {
+        display: inline-block;
+        line-height: 1.4; }
+    #info .container a.black-button {
+      margin: 1em 0; }
+  @media screen and (min-width: 53.75em) and (max-width: 64em) {
+    #info .col {
+      height: 330px;
+      position: relative; }
+    #info a.black-button {
+      bottom: 0;
+      position: absolute; } }
+  @media screen and (min-width: 64em) {
+    #info .col {
+      height: 290px;
+      position: relative; }
+    #info a.black-button {
+      bottom: 0;
+      position: absolute; } }
 
+/* ==========================================================================
+ * Member events
+ * ========================================================================== */
 #member-events h2 {
-  text-align: center; }
+  font-size: 2.375em;
+  text-align: center;
+  margin: 0 auto 1.5em; }
+#member-events h3 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 1em; }
+#member-events .left-col, #member-events .right-col {
+  margin-bottom: 2.5em; }
 #member-events .full {
   text-align: right; }
+#member-events a.yellow-button {
+  margin: 1em 0; }
+#member-events a.membership-button {
+  color: #fff;
+  display: inline-block;
+  font-family: "Oswald", "Helvetica Neue", Tahoma, sans-serif;
+  font-size: 1.75em;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 1em 0;
+  text-align: right;
+  text-transform: uppercase;
+  padding: 5px 1em;
+  position: relative; }
+  #member-events a.membership-button span {
+    display: block;
+    color: #f6d72b; }
+  #member-events a.membership-button::after {
+    color: #f6d72b;
+    content: "»";
+    font-size: 2.375em;
+    font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+    position: absolute;
+    right: -0.25em;
+    top: -0.11em; }
+@media screen and (max-width: 33.75em) {
+  #member-events h2 {
+    margin: 1em auto 1.5em; }
+  #member-events .full {
+    padding: 1em 0 3em;
+    text-align: center; }
+    #member-events .full a.membership-button {
+      font-size: 1.375em;
+      padding: 5px 1em;
+      margin: 0 auto; }
+      #member-events .full a.membership-button::after {
+        font-size: 2.375em;
+        right: -0.25em;
+        top: -0.09em; } }
 
+/* ==========================================================================
+ * Social
+ * ========================================================================== */
 #social {
   position: relative;
   z-index: 1; }
   #social .tilted-background {
-    -webkit-transform: rotate(3.75deg);
-    -moz-transform: rotate(3.75deg);
-    -ms-transform: rotate(3.75deg);
-    -o-transform: rotate(3.75deg);
-    transform: rotate(3.75deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
     z-index: -10; }
   #social .container {
     padding-top: 100px;
@@ -2722,7 +2893,20 @@ strong {
       font-size: 0.85em;
       text-transform: uppercase;
       text-align: right; }
+    #social .container a.social {
+      border: 3px solid #f6d72b;
+      display: inline-block;
+      height: 120px;
+      margin-right: 0.5em;
+      padding: 8px;
+      width: 120px; }
+      #social .container a.social svg {
+        height: 100px;
+        width: 100px; }
 
+/* ==========================================================================
+ * Special thanks
+ * ========================================================================== */
 #special-thanks h2 {
   text-align: center; }
 #special-thanks .left-col {
@@ -2730,6 +2914,9 @@ strong {
 #special-thanks .right-col {
   text-align: center; }
 
+/* ==========================================================================
+ * Press
+ * ========================================================================== */
 #press {
   text-align: center; }
   #press h2 {

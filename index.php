@@ -33,7 +33,7 @@
 				</div>
 				<div class="middle-col">&nbsp;</div>
 				<div class="left-col">
-					<h2>Want to hear a story? <br>We've got plenty to tell.</h2>
+					<h2>Want to hear a story? <span>We've got plenty to tell.</span></h2>
 					<p>Pulled from the darkened shelves and hidden crates of the Museum's collection storage rooms, we're finally getting our chance in the spotlight...and we have some pretty remarkable stories to tell.</p>
 					<p>We're from around the city, across the country, and throughout history. Some of us have survived the years unscathed, while some are proud of our hard-earned dings and dents. We all have our secrets, and together we've made history.</p>
 					<p>Come on in and see for yourself.</p>
@@ -48,7 +48,7 @@
 			<div class="container">
 				<div class="col">
 					<h3>Admission</h3>
-					<p><strong>Access to this exhibit is included with Museum admission</strong><br>
+					<p><strong>Access to this exhibit is included <br>with Museum admission</strong><br>
 					$14 adults<br>
 					$12 seniors/students<br>
 					Free to children 12 and under
@@ -95,13 +95,13 @@
 					<a href="" class="yellow-button" target="_blank">Get tickets</a>
 				</article>
 				<article class="right-col">
-					<h3>Tales from the archives</h3>
-					<p>The Museum's chief historian, Russell Lewis, and curator John Russick reveal previously undisclosed secrets about the 22,000,000 artifacts and documents in our collection.</p>
-					<p><em>Tuesday, May 19, 6:00-7:30 PM <br>$20 members, $25 guests. RSVP required.</em></p>
+					<h3>Event preview: For Your Eyes Only</h3>
+					<p>Museum members can enjoy exclusive access to a preview of The Secret Lives of Objects. We’ve handpicked this eclectic mix of artifacts from our extensive collection. Each one bears witness to history in its own remarkable way.</p>
+					<p><em>Saturday, March 21, 9:00–9:30 AM <br>Sunday, March 22, 11:00 AM–12:00 noon <br>Free for members. Reservations required. Coffee service and pastries included.</em></p>
 					<a href="" class="yellow-button" target="_blank">Members: RSVP here</a>
 				</article>
 				<div class="full">
-					<a href="" class="membership-button" target="_blank">Want exclusive access? <br>Become a member. <span>&raquo;</a>
+					<a href="" class="membership-button" target="_blank">Want exclusive access? <span>Become a member.</span></a>
 				</div>
 			</div>
 		</section>
@@ -114,9 +114,9 @@
 					<h3>What to share our secrets? No problem.</h3>
 				</div>
 				<div class="right-col">
-					<a href="" class="facebook" target="_blank"><?php include('img/facebook.svg.php'); ?></a>
-					<a href="" class="twitter" target="_blank"><?php include('img/twitter.svg.php'); ?></a>
-					<a href="" class="instagram" target="_blank"><?php include('img/instagram.svg.php'); ?></a>
+					<a href="" class="facebook social" target="_blank"><?php include('img/facebook.svg.php'); ?></a>
+					<a href="" class="twitter social" target="_blank"><?php include('img/twitter.svg.php'); ?></a>
+					<a href="" class="instagram social" target="_blank"><?php include('img/instagram.svg.php'); ?></a>
 				</div>
 			</div>
 		</section>
