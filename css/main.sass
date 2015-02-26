@@ -95,6 +95,92 @@ a.black-button
 	z-index: -10
 
 
+
+/* ==========================================================================
+ * Intro
+ * ========================================================================== */
+
+#masterslider
+	.ms-slide
+		text-align: center
+		.ms-slide-bgcont
+			position: relative
+		.ms-caption
+			margin: 0 auto !important
+			width: 100%
+			span
+				display: block
+		.ms-reveal
+			margin: 0 auto !important
+			width: 100%
+		span.item
+			color: #999
+			font-family: $ubuntu
+			line-height: 1.2
+			margin-bottom: 1em
+			text-transform: uppercase
+		span.riddle
+			color: #fff
+			line-height: 1.2
+			font-family: $ubuntu
+		span.answer
+			color: $yellow
+			font-family: $oswald
+			line-height: 1
+			text-transform: uppercase
+
+@include media(max-width 42em)
+	#masterslider
+		padding: 5.5em 0 5em
+		.ms-slide
+			.ms-slide-bgcont
+				top: -40px
+			.ms-caption
+				bottom: 47px !important
+			.ms-reveal
+				height: 32px
+				bottom: 0px !important
+				line-height: 1.1
+			span.item
+				font-size: .6em
+			span.riddle
+				font-size: .8em
+			span.answer
+				font-size: .9em
+
+@include media(min-width 42em max-width 53.3)
+	#masterslider
+		.ms-slide
+			.ms-slide-bgcont
+				top: -50px
+			.ms-caption
+				bottom: 80px !important
+			.ms-reveal
+				bottom: 35px !important
+			span.item
+				font-size: .9em
+			span.riddle
+				font-size: 1.2em
+			span.answer
+				font-size: 1.2em
+
+@include media(min-width 53.3em)
+	#masterslider
+		.ms-slide
+			.ms-slide-bgcont
+				top: -100px
+			.ms-caption
+				bottom: 220px !important
+			.ms-reveal
+				bottom: 180px !important
+			span.item
+				font-size: .9em
+			span.riddle
+				font-size: 1.2em
+			span.answer
+				font-size: 1.2em
+
+
 /* ==========================================================================
  * About
  * ========================================================================== */
@@ -318,6 +404,8 @@ a.black-button
 		position: relative
 		top: 22px
 		width: 100px
+		@include media(max-width 30em)
+			top: 44px
 	a
 		color: $yellow
 		border-bottom: 1px dotted $yellow

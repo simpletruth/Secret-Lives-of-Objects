@@ -12,5 +12,7 @@
 
 	<link href='//fonts.googleapis.com/css?family=Ubuntu:400,700,400italic|Oswald:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="<?php cachebust('style.css'); ?>">
+	<link rel="stylesheet" href="plugins/masterslider/style/masterslider.css" />
+	<link rel="stylesheet" href="plugins/masterslider/skins/default/style.css" />
 	<link rel="stylesheet" href="<?php cachebust('shame.css'); ?>">
 </head>

@@ -10,18 +10,73 @@
     <?php include('inc/ie6.php'); ?>
     <?php include('inc/header.php'); ?>
 
-		<section class="intro" id="section-intro">
-			<div class="image-bg" data-stellar-background-ratio="0.2"></div>
-			<div class="color-overlay"></div>
+		<section id="intro">
 			<div class="container">
-				<div class="logo">
-					<a href="/"><h1><img src="img/logo-white.png" alt="logo"></h1></a>
+
+				<div class="master-slider ms-skin-default" id="masterslider">
+				    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+				        <img src="plugins/masterslider/blank.gif" data-src="img/slide-cane.jpg" alt="Item #416" />
+				        <div class="ms-layer ms-caption" data-resize="false">
+				        	<span class="item">Item #416</span>
+				        	<span class="riddle">I helped a "Little Tramp" stand tall.</span>
+				        </div>
+				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="4000">
+				            <span class="answer">Charlie Chaplin’s bamboo cane, c.1915</span>
+				        </div>
+				    </div>
+
+				    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+				       <img src="plugins/masterslider/blank.gif" data-src="img/slide-desk.jpg" alt="Item #1,865" />
+				        <div class="ms-layer ms-caption" data-resize="false"  data-delay="0">
+				        	<span class="item">Item #1,865</span>
+				        	<span class="riddle">I witnessed the end of America's darkest chapter.</span>
+				        </div>
+				        <div class="ms-layer ms-reveal" data-resize="false"  data-effect="bottom(0|100 , true)" data-delay="4000">
+				            <span class="answer">Table from the McLean house at Appomattox CourtHouse, Virginia, c.1865</span>
+				        </div>
+				    </div>
+
+				    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+				        <img src="plugins/masterslider/blank.gif" data-src="img/slide-badge.jpg" alt="Item #6,876" />
+				        <div class="ms-layer ms-caption" data-resize="false">
+				        	<span class="item">Item #6,876</span>
+				        	<span class="riddle">I helped an alderman look the part.</span>
+				        </div>
+				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="4000">
+				            <span class="answer">Badge worn by First Ward Alderman Michael "Hinky Dink" Kenna</span>
+				        </div>
+				    </div>
+
+				    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+				        <img src="plugins/masterslider/blank.gif" data-src="img/slide-revolver.jpg" alt="Item #521" />
+				        <div class="ms-layer ms-caption" data-resize="false">
+				        	<span class="item">Item #1,456</span>
+				        	<span class="riddle">I raided Harper's Ferry.</span>
+				        </div>
+				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="4000">
+				            <span class="answer">Owen Brown’s Colt Model 1851 Revolver, Massachusetts Arms Company, c. 1856</span>
+				        </div>
+				    </div>
+
+				    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+				        <img src="plugins/masterslider/blank.gif" data-src="img/slide-glasses.jpg" alt="Item #1,456" />
+				        <div class="ms-layer ms-caption" data-resize="false">
+				        	<span class="item">Item #521</span>
+				        	<span class="riddle">I brought two killers to justice.</span>
+				        </div>
+				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="fade" data-delay="4000">
+				        	<span class="answer">Nathan Leopold's Eyeglasses, c. 1924</span>
+				        </div>
+				    </div>
+				    <!-- end of slide -->
+
 				</div>
-				<h3>Neat is a lightning quick landing page built on the cutting edge Bourbon Neat framework.</h3>
+				<!-- end of masterslider -->
+
 			</div>
 
 			<!-- the 'jump down' button to scroll to next section -->
-			<a href="#section-features" class="jump-down"><i class="fa fa-chevron-down"></i></a>
+			<!-- <a href="#section-features" class="jump-down"><i class="fa fa-chevron-down"></i></a> -->
 		</section>
 
 	<div id="master-container">
@@ -101,7 +156,7 @@
 					<a href="" class="yellow-button" target="_blank">Members: RSVP here</a>
 				</article>
 				<div class="full">
-					<a href="/join.php" class="membership-button" target="_blank">Want exclusive access? <span>Become a member.</span></a>
+					<a href="" class="membership-button">Want exclusive access? <span>Become a member.</span></a>
 				</div>
 			</div>
 		</section>
