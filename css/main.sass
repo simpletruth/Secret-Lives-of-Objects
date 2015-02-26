@@ -281,6 +281,7 @@ a.black-button
 		padding: 5px 1em
 		position: relative
 		span
+			@include transition(color .5s, right .5s)
 			display: block
 			color: $yellow
 		&::after
@@ -294,11 +295,18 @@ a.black-button
 			right: -.25em
 			top: -.11em
 		&:hover
-			color: $yellow
+			color: #ffe96f
 			&::after
 				@include transition(color .5s, right .5s)
-				color: $yellow
+				color: #ffe96f
 				right: -.35em
+			span
+				@include transition(color .5s, right .5s)
+				color: #ffe96f
+	.right-col
+		a.yellow-button
+			margin-bottom: .1em
+			width: 270px
 
 	@include media(max-width 33.75em)
 		h2

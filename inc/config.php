@@ -2,7 +2,7 @@
 /**
  * Default site title. Set unique page titles in each respective page.
  */
-$site_title = 'Default Site Title';
+$site_title = 'The Secret Lives of Objects @ Chicago History Museum';
 $page_url = $_SERVER["PHP_SELF"];
 
 /**

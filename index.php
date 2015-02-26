@@ -20,7 +20,7 @@
 				        	<span class="item">Item #416</span>
 				        	<span class="riddle">I helped a "Little Tramp" stand tall.</span>
 				        </div>
-				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="4000">
+				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
 				            <span class="answer">Charlie Chaplin’s bamboo cane, c.1915</span>
 				        </div>
 				    </div>
@@ -31,7 +31,7 @@
 				        	<span class="item">Item #1,865</span>
 				        	<span class="riddle">I witnessed the end of America's darkest chapter.</span>
 				        </div>
-				        <div class="ms-layer ms-reveal" data-resize="false"  data-effect="bottom(0|100 , true)" data-delay="4000">
+				        <div class="ms-layer ms-reveal" data-resize="false"  data-effect="bottom(0|100 , true)" data-delay="3500">
 				            <span class="answer">Table from the McLean house at Appomattox CourtHouse, Virginia, c.1865</span>
 				        </div>
 				    </div>
@@ -42,7 +42,7 @@
 				        	<span class="item">Item #6,876</span>
 				        	<span class="riddle">I helped an alderman look the part.</span>
 				        </div>
-				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="4000">
+				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
 				            <span class="answer">Badge worn by First Ward Alderman Michael "Hinky Dink" Kenna</span>
 				        </div>
 				    </div>
@@ -53,7 +53,7 @@
 				        	<span class="item">Item #1,456</span>
 				        	<span class="riddle">I raided Harper's Ferry.</span>
 				        </div>
-				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="4000">
+				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
 				            <span class="answer">Owen Brown’s Colt Model 1851 Revolver, Massachusetts Arms Company, c. 1856</span>
 				        </div>
 				    </div>
@@ -64,7 +64,7 @@
 				        	<span class="item">Item #521</span>
 				        	<span class="riddle">I brought two killers to justice.</span>
 				        </div>
-				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="fade" data-delay="4000">
+				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
 				        	<span class="answer">Nathan Leopold's Eyeglasses, c. 1924</span>
 				        </div>
 				    </div>
@@ -147,13 +147,14 @@
 					<h3>Tales from the archives</h3>
 					<p>The Museum's chief historian, Russell Lewis, and curator John Russick reveal previously undisclosed secrets about the 22,000,000 artifacts and documents in our collection.</p>
 					<p><em>Tuesday, May 19, 6:00<i>&ndash;</i>7:30 PM <br>$20 members, $25 guests. RSVP required.</em></p>
-					<a href="" class="yellow-button" target="_blank">Get tickets</a>
+					<a href="http://www.eventbrite.com/e/member-only-program-tell-me-more-tell-me-more-tickets-15729433158?aff=affiliate8SLOOMicrosite" class="yellow-button" target="_blank">Get tickets</a>
 				</article>
 				<article class="right-col">
 					<h3>Event preview: For Your Eyes Only</h3>
 					<p>Museum members can enjoy exclusive access to a preview of The Secret Lives of Objects. We've handpicked this eclectic mix of artifacts from our extensive collection. Each one bears witness to history in its own remarkable way.</p>
 					<p><em>Saturday, March 21, 9:00<i>&ndash;</i>9:30 AM <br>Sunday, March 22, 11:00 AM<i>&ndash;</i>12:00 noon <br>Free for members. Reservations required. Coffee service and pastries included.</em></p>
-					<a href="" class="yellow-button" target="_blank">Members: RSVP here</a>
+					<a href="http://www.eventbrite.com/e/member-only-hours-the-secret-lives-of-objects-exhibition-preview-tickets-15729449206?aff=affiliate10SLOOMicrosite" class="yellow-button" target="_blank">Members: RSVP for March 21st</a><br>
+					<a href="http://www.eventbrite.com/e/member-only-hours-the-secret-lives-of-objects-exhibition-preview-tickets-15729492335?aff=affiliate8SLOOMicrosite" class="yellow-button" target="_blank">Members: RSVP for March 22nd</a>
 				</article>
 				<div class="full">
 					<a href="" class="membership-button">Want exclusive access? <span>Become a member.</span></a>
