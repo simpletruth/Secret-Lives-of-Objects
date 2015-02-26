@@ -25,14 +25,17 @@ em
 a.yellow-button,
 a.black-button
 	display: inline-block
-	padding: .65em 1em .45em
+	font-family: $ubuntu
+	padding: .55em 1em .55em
 	position: relative
 	&::after
-		background: #000
-		content: '\00bb'
+		content: '\203a'
 		display: block
 		height: 100%
-		font-size: 1.3em
+		font-weight: 400
+		font-size: 2em
+		font-family: 'helvetica neue', arial, sans-serif
+		line-height: .8
 		padding: 6px 12px
 		position: absolute
 		text-align: center
@@ -41,16 +44,35 @@ a.black-button
 		width: 40px
 
 a.yellow-button
+	@include transition(background .5s)
 	background: $yellow
 	color: #000
 	&::after
+		@include transition(background .5s)
 		background: #cab023
+	&:hover
+		@include transition(background .5s)
+		background: #ffe96f
+		color: #000
+		&::after
+			@include transition(background .5s)
+			background: $yellow
+	background: $yellow
 
 a.black-button
+	@include transition(background .5s)
 	background: #222
-	color: #fff
+	color: #eee
 	&::after
+		@include transition(background .5s)
 		background: #000
+	&:hover
+		@include transition(background .5s)
+		background: #444
+		color: #fff
+		&::after
+			@include transition(background .5s)
+			background: #333
 
 .tilted-background
 	@include transform(rotate(-3deg))
@@ -59,6 +81,15 @@ a.black-button
 	left: -50%
 	height: 100%
 	min-height: 400px
+	top: 0
+	width: 200%
+	z-index: -10
+
+.straight-background
+	background: #222
+	height: 100%
+	position: absolute
+	left: -50%
 	top: 0
 	width: 200%
 	z-index: -10
@@ -151,6 +182,7 @@ a.black-button
 	a.yellow-button
 		margin: 1em 0
 	a.membership-button
+		@include transition(color .5s)
 		color: #fff
 		display: inline-block
 		font-family: $oswald
@@ -166,6 +198,7 @@ a.black-button
 			display: block
 			color: $yellow
 		&::after
+			@include transition(color .5s, right .5s)
 			color: $yellow
 			content: '\00bb'
 			font-size: em(38)
@@ -174,6 +207,13 @@ a.black-button
 			position: absolute
 			right: -.25em
 			top: -.11em
+		&:hover
+			color: $yellow
+			&::after
+				@include transition(color .5s, right .5s)
+				color: $yellow
+				right: -.35em
+
 	@include media(max-width 33.75em)
 		h2
 			margin: 1em auto 1.5em
@@ -188,7 +228,6 @@ a.black-button
 					font-size: em(38)
 					right: -.25em
 					top: -.09em
-
 /* ==========================================================================
  * Social
  * ========================================================================== */
@@ -217,6 +256,7 @@ a.black-button
 			text-transform: uppercase
 			text-align: right
 		a.social
+			@include transition(background .5s, fill .5s)
 			border: 3px solid $yellow
 			display: inline-block
 			height: 116px
@@ -224,8 +264,16 @@ a.black-button
 			padding: 6px
 			width: 116px
 			svg
+				@include transition(background .5s, fill .5s)
 				height: 100px
 				width: 100px
+			&:hover
+				@include transition(background .5s, fill .5s)
+				background: $yellow
+				svg path
+					@include transition(background .5s, fill .5s)
+					fill: #222
+
 	@include media(max-width 53.75em)
 		.tilted-background
 			margin-top: 2.5em

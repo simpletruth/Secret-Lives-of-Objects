@@ -2703,6 +2703,43 @@ footer.footer ul.social li a:hover {
     #press .container:last-child {
       margin-right: 0; } }
 
+#press-room .container {
+  padding: 2.3576515979%; }
+@media screen and (min-width: 53.75em) {
+  #press-room .left-col {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 46.6887231261%; }
+    #press-room .left-col:last-child {
+      margin-right: 0; }
+  #press-room .right-col {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 46.6887231261%;
+    margin-left: 4.2649021499%;
+    margin-right: 0; }
+    #press-room .right-col:last-child {
+      margin-right: 0; } }
+@media screen and (max-width: 53.75em) {
+  #press-room .left-col {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 82.9403914003%;
+    margin-left: 8.5298042998%; }
+    #press-room .left-col:last-child {
+      margin-right: 0; }
+  #press-room .right-col {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 82.9403914003%;
+    margin-left: 8.5298042998%; }
+    #press-room .right-col:last-child {
+      margin-right: 0; } }
+
 header#navigation {
   background-color: #000;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
@@ -2720,6 +2757,25 @@ header#navigation {
     left: 10px;
     top: -18px;
     width: 179px; }
+  @media screen and (max-width: 28em) {
+    header#navigation a.logo #secret-lives {
+      width: 55px; }
+      header#navigation a.logo #secret-lives svg {
+        width: 55px; }
+    header#navigation a.logo #chm {
+      width: 130px; }
+      header#navigation a.logo #chm svg {
+        width: 130px; } }
+  @media screen and (max-width: 53.75em) {
+    header#navigation.headroom ul li.nav-link {
+      background-color: #333;
+      border-bottom: 1px solid #444;
+      line-height: 4; }
+    header#navigation.headroom .navigation-menu-button:hover {
+      -webkit-transition: color 0.5s;
+      -moz-transition: color 0.5s;
+      transition: color 0.5s;
+      color: #f6d72b; } }
   header#navigation .nav li a {
     font-size: 14px;
     text-transform: uppercase;
@@ -2728,7 +2784,31 @@ header#navigation {
     padding-right: 1.5em; }
   header#navigation .nav li a:hover,
   header#navigation .nav li.active a {
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    transition: color 0.5s;
     color: #f6d72b; }
+  header#navigation a.back-to-home {
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    transition: color 0.5s;
+    color: #888;
+    display: blcok;
+    font-size: 0.8125em;
+    font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+    float: right;
+    height: 96px;
+    line-height: 96px;
+    padding-right: 1.5em;
+    text-transform: uppercase; }
+    header#navigation a.back-to-home:hover {
+      -webkit-transition: color 0.5s;
+      -moz-transition: color 0.5s;
+      transition: color 0.5s;
+      color: #f6d72b; }
+    @media screen and (max-width: 30em) {
+      header#navigation a.back-to-home span {
+        display: none; } }
   @media screen and (min-width: 53.75em) and (max-width: 58em) {
     header#navigation .nav li {
       padding-left: 9px; }
@@ -2754,6 +2834,9 @@ footer {
 /* ==========================================================================
  * Home
  * ========================================================================== */
+i {
+  font-family: "helvetica neue", arial, sans-serif; }
+
 /* ==========================================================================
  * Home
  * ========================================================================== */
@@ -2780,15 +2863,18 @@ em {
 a.yellow-button,
 a.black-button {
   display: inline-block;
-  padding: 0.65em 1em 0.45em;
+  font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+  padding: 0.55em 1em 0.55em;
   position: relative; }
   a.yellow-button::after,
   a.black-button::after {
-    background: #000;
-    content: "»";
+    content: "›";
     display: block;
     height: 100%;
-    font-size: 1.3em;
+    font-weight: 400;
+    font-size: 2em;
+    font-family: "helvetica neue", arial, sans-serif;
+    line-height: 0.8;
     padding: 6px 12px;
     position: absolute;
     text-align: center;
@@ -2797,16 +2883,51 @@ a.black-button {
     width: 40px; }
 
 a.yellow-button {
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  transition: background 0.5s;
   background: #f6d72b;
-  color: #000; }
+  color: #000;
+  background: #f6d72b; }
   a.yellow-button::after {
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    transition: background 0.5s;
     background: #cab023; }
+  a.yellow-button:hover {
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    transition: background 0.5s;
+    background: #ffe96f;
+    color: #000; }
+    a.yellow-button:hover::after {
+      -webkit-transition: background 0.5s;
+      -moz-transition: background 0.5s;
+      transition: background 0.5s;
+      background: #f6d72b; }
 
 a.black-button {
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  transition: background 0.5s;
   background: #222;
-  color: #fff; }
+  color: #eee; }
   a.black-button::after {
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    transition: background 0.5s;
     background: #000; }
+  a.black-button:hover {
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    transition: background 0.5s;
+    background: #444;
+    color: #fff; }
+    a.black-button:hover::after {
+      -webkit-transition: background 0.5s;
+      -moz-transition: background 0.5s;
+      transition: background 0.5s;
+      background: #333; }
 
 .tilted-background {
   -webkit-transform: rotate(-3deg);
@@ -2819,6 +2940,15 @@ a.black-button {
   left: -50%;
   height: 100%;
   min-height: 400px;
+  top: 0;
+  width: 200%;
+  z-index: -10; }
+
+.straight-background {
+  background: #222;
+  height: 100%;
+  position: absolute;
+  left: -50%;
   top: 0;
   width: 200%;
   z-index: -10; }
@@ -2907,6 +3037,9 @@ a.black-button {
 #member-events a.yellow-button {
   margin: 1em 0; }
 #member-events a.membership-button {
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
   color: #fff;
   display: inline-block;
   font-family: "Oswald", "Helvetica Neue", Tahoma, sans-serif;
@@ -2922,6 +3055,9 @@ a.black-button {
     display: block;
     color: #f6d72b; }
   #member-events a.membership-button::after {
+    -webkit-transition: color 0.5s, right 0.5s;
+    -moz-transition: color 0.5s, right 0.5s;
+    transition: color 0.5s, right 0.5s;
     color: #f6d72b;
     content: "»";
     font-size: 2.375em;
@@ -2930,6 +3066,14 @@ a.black-button {
     position: absolute;
     right: -0.25em;
     top: -0.11em; }
+  #member-events a.membership-button:hover {
+    color: #f6d72b; }
+    #member-events a.membership-button:hover::after {
+      -webkit-transition: color 0.5s, right 0.5s;
+      -moz-transition: color 0.5s, right 0.5s;
+      transition: color 0.5s, right 0.5s;
+      color: #f6d72b;
+      right: -0.35em; }
 @media screen and (max-width: 33.75em) {
   #member-events h2 {
     margin: 1em auto 1.5em; }
@@ -2976,6 +3120,9 @@ a.black-button {
       text-transform: uppercase;
       text-align: right; }
     #social .container a.social {
+      -webkit-transition: background 0.5s, fill 0.5s;
+      -moz-transition: background 0.5s, fill 0.5s;
+      transition: background 0.5s, fill 0.5s;
       border: 3px solid #f6d72b;
       display: inline-block;
       height: 116px;
@@ -2983,8 +3130,21 @@ a.black-button {
       padding: 6px;
       width: 116px; }
       #social .container a.social svg {
+        -webkit-transition: background 0.5s, fill 0.5s;
+        -moz-transition: background 0.5s, fill 0.5s;
+        transition: background 0.5s, fill 0.5s;
         height: 100px;
         width: 100px; }
+      #social .container a.social:hover {
+        -webkit-transition: background 0.5s, fill 0.5s;
+        -moz-transition: background 0.5s, fill 0.5s;
+        transition: background 0.5s, fill 0.5s;
+        background: #f6d72b; }
+        #social .container a.social:hover svg path {
+          -webkit-transition: background 0.5s, fill 0.5s;
+          -moz-transition: background 0.5s, fill 0.5s;
+          transition: background 0.5s, fill 0.5s;
+          fill: #222; }
   @media screen and (max-width: 53.75em) {
     #social .tilted-background {
       margin-top: 2.5em; }
@@ -3072,9 +3232,102 @@ a.black-button {
   .join section.intro .image-bg {
     background: url(img/membership.jpg) 0 0 no-repeat; }
 
+#compare {
+  position: relative;
+  z-index: 1; }
+  #compare h2 {
+    background-color: #f6d72b;
+    color: #000;
+    font-size: 2.25em;
+    text-align: center;
+    padding: 0.5em; }
+  #compare .h2-bg {
+    text-align: center;
+    left: -50%;
+    position: relative;
+    top: 0;
+    width: 200%; }
+
 /* ==========================================================================
  * Home
  * ========================================================================== */
+#press-room h1 {
+  color: #fff;
+  font-size: 3.25em;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 1em; }
+#press-room h2 {
+  -webkit-transition: border-color 0.5s, color 0.5s;
+  -moz-transition: border-color 0.5s, color 0.5s;
+  transition: border-color 0.5s, color 0.5s;
+  font-family: "Oswald", "Helvetica Neue", Tahoma, sans-serif; }
+#press-room h3 {
+  -webkit-transition: border-color 0.5s, color 0.5s;
+  -moz-transition: border-color 0.5s, color 0.5s;
+  transition: border-color 0.5s, color 0.5s;
+  color: #eee;
+  font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  text-transform: none; }
+#press-room article {
+  margin-bottom: 2em; }
+  #press-room article a {
+    -webkit-transition: border-color 0.5s, color 0.5s;
+    -moz-transition: border-color 0.5s, color 0.5s;
+    transition: border-color 0.5s, color 0.5s;
+    border-bottom: 7px solid #222;
+    display: block;
+    padding: 0.5em 1em 1em 0em;
+    position: relative; }
+    #press-room article a::after {
+      -webkit-transition: border-color 0.5s, color 0.5s, right 0.5s;
+      -moz-transition: border-color 0.5s, color 0.5s, right 0.5s;
+      transition: border-color 0.5s, color 0.5s, right 0.5s;
+      color: #fff;
+      content: "»";
+      font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+      font-weight: 400;
+      line-height: 1;
+      position: absolute;
+      right: 0.1em; }
+    #press-room article a:hover {
+      -webkit-transition: border-color 0.5s, color 0.5s;
+      -moz-transition: border-color 0.5s, color 0.5s;
+      transition: border-color 0.5s, color 0.5s;
+      border-bottom: 7px solid #f6d72b; }
+      #press-room article a:hover h3 {
+        -webkit-transition: border-color 0.5s, color 0.5s;
+        -moz-transition: border-color 0.5s, color 0.5s;
+        transition: border-color 0.5s, color 0.5s;
+        color: #f6d72b; }
+      #press-room article a:hover::after {
+        -webkit-transition: border-color 0.5s, color 0.5s, right 0.5s;
+        -moz-transition: border-color 0.5s, color 0.5s, right 0.5s;
+        transition: border-color 0.5s, color 0.5s, right 0.5s;
+        color: #f6d72b;
+        right: 0; }
+@media screen and (min-width: 53.75em) {
+  #press-room h1 {
+    font-size: 3.25em; }
+  #press-room h2 {
+    font-size: 1.75em; }
+  #press-room h3 {
+    font-size: 1em; }
+  #press-room a::after {
+    font-size: 3.875em;
+    top: 0; } }
+@media screen and (max-width: 53.75em) {
+  #press-room h1 {
+    font-size: 2.875em; }
+  #press-room h2 {
+    font-size: 1.375em; }
+  #press-room h3 {
+    font-size: 0.875em; }
+  #press-room a::after {
+    font-size: 3.25em;
+    top: 0.04em; } }
+
 /* ==========================================================================
  * Helper classes
  * ========================================================================== */

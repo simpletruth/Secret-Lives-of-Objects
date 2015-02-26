@@ -78,7 +78,7 @@
 					<h3>Parking</h3>
 					<p>
 						<strong>$9 with Museum validation</strong><br>
-						Visa, MasterCard, and Discover accepted &mdash; complimentary for Premium members!
+						Visa, MasterCard, and Discover accepted <i>&mdash;</i> complimentary for Premium members!
 					</p>
 					<a href="https://www.google.com/maps/place/Chicago+History+Museum+Parking/@41.9135369,-87.6324362,18z/data=!4m7!1m4!3m3!1s0x880fd343bd18fb6d:0x4f731cdb732d79d1!2sChicago+History+Museum!3b1!3m1!1s0x880fd3426bde9bd1:0x2e9a69ea1b20bb4d" class="black-button" target="_blank">Parking directions</a>
 				</div>
@@ -91,17 +91,17 @@
 				<article class="left-col">
 					<h3>Tales from the archives</h3>
 					<p>The Museum's chief historian, Russell Lewis, and curator John Russick reveal previously undisclosed secrets about the 22,000,000 artifacts and documents in our collection.</p>
-					<p><em>Tuesday, May 19, 6:00-7:30 PM <br>$20 members, $25 guests. RSVP required.</em></p>
+					<p><em>Tuesday, May 19, 6:00<i>&ndash;</i>7:30 PM <br>$20 members, $25 guests. RSVP required.</em></p>
 					<a href="" class="yellow-button" target="_blank">Get tickets</a>
 				</article>
 				<article class="right-col">
 					<h3>Event preview: For Your Eyes Only</h3>
-					<p>Museum members can enjoy exclusive access to a preview of The Secret Lives of Objects. We’ve handpicked this eclectic mix of artifacts from our extensive collection. Each one bears witness to history in its own remarkable way.</p>
-					<p><em>Saturday, March 21, 9:00–9:30 AM <br>Sunday, March 22, 11:00 AM–12:00 noon <br>Free for members. Reservations required. Coffee service and pastries included.</em></p>
+					<p>Museum members can enjoy exclusive access to a preview of The Secret Lives of Objects. We've handpicked this eclectic mix of artifacts from our extensive collection. Each one bears witness to history in its own remarkable way.</p>
+					<p><em>Saturday, March 21, 9:00<i>&ndash;</i>9:30 AM <br>Sunday, March 22, 11:00 AM<i>&ndash;</i>12:00 noon <br>Free for members. Reservations required. Coffee service and pastries included.</em></p>
 					<a href="" class="yellow-button" target="_blank">Members: RSVP here</a>
 				</article>
 				<div class="full">
-					<a href="/join" class="membership-button" target="_blank">Want exclusive access? <span>Become a member.</span></a>
+					<a href="/join.php" class="membership-button" target="_blank">Want exclusive access? <span>Become a member.</span></a>
 				</div>
 			</div>
 		</section>
@@ -114,9 +114,9 @@
 					<h3>What to share our secrets? No problem.</h3>
 				</div>
 				<div class="right-col">
-					<a href="" class="facebook social" target="_blank"><?php include('img/facebook.svg.php'); ?></a>
-					<a href="" class="twitter social" target="_blank"><?php include('img/twitter.svg.php'); ?></a>
-					<a href="" class="instagram social" target="_blank"><?php include('img/instagram.svg.php'); ?></a>
+					<a href="http://www.facebook.com/share.php?u=secretlivesobjects.com" class="facebook social" target="_blank"><?php include('img/facebook.svg.php'); ?></a>
+					<a href="https://twitter.com/share?text=I%27m%20going%20to%20Secret%20Lives%20of%20Objects%20at%20@ChicagoMuseum!&url=http://secretlivesobjects.com" class="twitter social" target="_blank"><?php include('img/twitter.svg.php'); ?></a>
+					<a href="https://instagram.com/chicagomuseum/" class="instagram social" target="_blank"><?php include('img/instagram.svg.php'); ?></a>
 				</div>
 			</div>
 		</section>
@@ -144,7 +144,7 @@
 			<div class="container">
 				<h2>Even our secrets have secrets</h2>
 				<p>Visit our press room to learn more about <em>The Secret Lives of Objects.</em></p>
-				<a href="" class="yellow-button">Press Room</a>
+				<a href="press.php" class="yellow-button">Press Room</a>
 			</div>
 		</section>
 

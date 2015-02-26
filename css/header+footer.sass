@@ -16,6 +16,25 @@ header#navigation
 			left: 10px
 			top: -18px
 			width: 179px
+		@include media(max-width 28em)
+			#secret-lives
+				width: 55px
+				svg
+					width: 55px
+			#chm
+				width: 130px
+				svg
+					width: 130px
+	@include media(max-width 53.75em)
+		&.headroom
+			ul li.nav-link
+				background-color: #333
+				border-bottom: 1px solid #444
+				line-height: 4
+			.navigation-menu-button:hover
+				@include transition(color .5s)
+				color: $yellow
+
 	.nav
 		li a
 			font-size: 14px
@@ -25,7 +44,26 @@ header#navigation
 			padding-right: 1.5em
 		li a:hover,
 		li.active a
+			@include transition(color .5s)
 			color: $yellow
+	a.back-to-home
+		@include transition(color .5s)
+		color: #888
+		display: blcok
+		font-size: em(13)
+		font-family: $ubuntu
+		float: right
+		height: 96px
+		line-height: 96px
+		padding-right: 1.5em
+		text-transform: uppercase
+		&:hover
+			@include transition(color .5s)
+			color: $yellow
+		@include media(max-width 30em)
+			span
+				display: none
+
 	@include media(min-width 53.75em max-width 58em)
 		.nav
 			li

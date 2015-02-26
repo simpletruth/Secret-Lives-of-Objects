@@ -123,3 +123,21 @@
 		.container
 			@include span-columns(10)
 			@include shift(1)
+
+#press-room
+	.container
+		@include pad()
+	@include media(min-width 53.75em)
+		.left-col
+			@include span-columns(5.75)
+		.right-col
+			@include span-columns(5.75)
+			@include shift(.5)
+			@include omega()
+	@include media(max-width 53.75em)
+		.left-col
+			@include span-columns(10)
+			@include shift(1)
+		.right-col
+			@include span-columns(10)
+			@include shift(1)

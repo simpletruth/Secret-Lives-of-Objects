@@ -8,26 +8,42 @@
 <body class="<?php echo $body_class ?>">
 
     <?php include('inc/ie6.php'); ?>
-    <?php include('inc/header.php'); ?>
+	<header id="navigation" class="navigation headroom">
+		<div class="navigation-wrapper">
 
-		<section class="intro" id="section-intro">
-			<div class="image-bg" data-stellar-background-ratio=".8"></div>
-			<div class="container">
-				<div class="logo">
-					<a href="/"><h1><img src="img/logo-white.png" alt="logo"></h1></a>
-				</div>
-				<h3>Neat is a lightning quick landing page built on the cutting edge Bourbon Neat framework.</h3>
+			<!-- logo - you can put yours here -->
+			<a href="/" class="logo">
+				<span id="secret-lives"><?php include('img/secret-lives-logo.svg.php'); ?></span>
+				<span id="chm"><?php include('img/chm.svg.php'); ?></span>
+			</a>
+
+			<a href="/" class="back-to-home">&#8592; Back to home</a>
+
+		</div>
+	</header>
+
+	<section class="intro" id="section-intro">
+		<div class="image-bg" data-stellar-background-ratio=".8"></div>
+		<div class="container">
+			<div class="logo">
+				<a href="/"><h1><img src="img/logo-white.png" alt="logo"></h1></a>
 			</div>
+			<h3>Neat is a lightning quick landing page built on the cutting edge Bourbon Neat framework.</h3>
+		</div>
 
-			<!-- the 'jump down' button to scroll to next section -->
-			<a href="#section-features" class="jump-down"><i class="fa fa-chevron-down"></i></a>
-		</section>
+		<!-- the 'jump down' button to scroll to next section -->
+		<a href="#section-features" class="jump-down"><i class="fa fa-chevron-down"></i></a>
+	</section>
 
 	<div id="master-container">
 
 		<section id="membership-matters">
 			<div class="tilted-background"></div>
 			<div class="container">
+				<div class="left-col">
+					<h2>Membership Matters</h2>
+					<h3>Join the Chicago History Museum Today</h3>
+				</div>
 				<div class="right-col">
 					<div class="left-sub-col">
 						<strong>Premium Memberships</strong>
@@ -57,66 +73,129 @@
 			</div>
 		</section>
 
+		<section id="march-twenty-first">
+			<div class="container">
+				<div class="left-col">
+					<?php include('img/secret-lives-logo.svg.php'); ?>
+				</div>
+				<div class="right-col">
+					<h2>Join by March 21</h2>
+					<h3>and attend the Members-Only Preview of The Secret Lives of Objects</h3>
+					<p>Be the first to uncover the secrets of some of our nearly 22 million amazing artifacts! The exhibit will be continually changing, rotating in new treasures and --- thanks to unlimited admissions --- you'll be able to see them all!</p>
+					<a href="#">Simple and fast membership sign-up &raquo;</a>
+				</div>
+			</div>
+		</section>
+
 		<section id="compare">
-			<div class="container">
-				<h2>Member events</h2>
-				<article class="left-col">
-					<h3>Tales from the archives</h3>
-					<p>The Museum's chief historian, Russell Lewis, and curator John Russick reveal previously undisclosed secrets about the 22,000,000 artifacts and documents in our collection.</p>
-					<p><em>Tuesday, May 19, 6:00-7:30 PM <br>$20 members, $25 guests. RSVP required.</em></p>
-					<a href="" class="yellow-button" target="_blank">Get tickets</a>
-				</article>
-				<article class="right-col">
-					<h3>Event preview: For Your Eyes Only</h3>
-					<p>Museum members can enjoy exclusive access to a preview of The Secret Lives of Objects. We’ve handpicked this eclectic mix of artifacts from our extensive collection. Each one bears witness to history in its own remarkable way.</p>
-					<p><em>Saturday, March 21, 9:00–9:30 AM <br>Sunday, March 22, 11:00 AM–12:00 noon <br>Free for members. Reservations required. Coffee service and pastries included.</em></p>
-					<a href="" class="yellow-button" target="_blank">Members: RSVP here</a>
-				</article>
-				<div class="full">
-					<a href="" class="membership-button" target="_blank">Want exclusive access? <span>Become a member.</span></a>
+			<div class="straight-background"></div>
+			<h2>
+				<div class="container">
+					Join today for limited-time savings
 				</div>
+			</h2>
+			<div class="container">
+				<table>
+					<tr>
+						<th></th>
+						<th>Core 2</th>
+						<th>Core 4</th>
+						<th>Premium 2</th>
+						<th>Premium 4</th>
+					</tr>
+					<tr>
+						<td>Museum admission</td>
+						<td>2</td>
+						<td>4</td>
+						<td>2</td>
+						<td>4</td>
+					<tr>
+					<tr>
+						<td>Research Center admission</td>
+						<td>2</td>
+						<td>4</td>
+						<td>2</td>
+						<td>4</td>
+					<tr>
+					<tr>
+						<td>Invitations to annual member events</td>
+						<td>2</td>
+						<td>4</td>
+						<td>2</td>
+						<td>4</td>
+					<tr>
+					<tr>
+						<td>Exclusive member previews of exhibition openings</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+					<tr>
+					<tr>
+						<td>Discounts at the Museum Store and North & Clark Café, plus double discount days</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+					<tr>
+					<tr>
+						<td>Member e-newsletter</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+					<tr>
+					<tr>
+						<td>Access to members-only parking spaces</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+					<tr>
+					<tr>
+						<td>Access to members lounge at select events</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+					<tr>
+					<tr>
+						<td>Subscription to Chicago History magazine</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+					<tr>
+					<tr>
+						<td>Free parking on Museum visits</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+					<tr>
+					<tr>
+						<td>Priority registration for select programs and ticketed events</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+					<tr>
+					<tr>
+						<td>One-time use Museum passes to share with friends and family</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&bull;</td>
+						<td>&bull;</td>
+					<tr>
+				</table>
 			</div>
 		</section>
 
-		<section id="social">
-			<div class="tilted-background"></div>
+		<section id="impact">
 			<div class="container">
-				<div class="left-col">
-					<h2>#SecretLives</h2>
-					<h3>What to share our secrets? No problem.</h3>
-				</div>
-				<div class="right-col">
-					<a href="" class="facebook social" target="_blank"><?php include('img/facebook.svg.php'); ?></a>
-					<a href="" class="twitter social" target="_blank"><?php include('img/twitter.svg.php'); ?></a>
-					<a href="" class="instagram social" target="_blank"><?php include('img/instagram.svg.php'); ?></a>
-				</div>
-			</div>
-		</section>
-
-		<section id="special-thanks">
-			<div class="container">
-				<h2>Special thanks</h2>
-				<div class="left-col">
-					<div class="img-wrap">
-						<img src="img/manual-cinema.png" alt="Manual Cinema">
-					</div>
-					<p><a href="http://manualcinema.com/" target="blank">Manual Cinema</a> will bring various secrets to life through a combination of handmade shadow puppetry, cinematic motifs, and original sound effects and music.</p>
-				</div>
-				<div class="right-col">
-					<div class="img-wrap">
-						<?php include('img/cpd.svg.php'); ?>
-					</div>
-					<p>The Chicago History Museum gratefully acknowledges the support of the Chicago Park District on behalf of the people of Chicago.</p>
-				</div>
-			</div>
-		</section>
-
-		<section id="press">
-			<div class="tilted-background"></div>
-			<div class="container">
-				<h2>Even our secrets have secrets</h2>
-				<p>Visit our press room to learn more about <em>The Secret Lives of Objects.</em></p>
-				<a href="" class="yellow-button">Press Room</a>
+				<h2>Museum members make an impact</h2>
+				<p>You help us make Chicago's most important stories less of a secret to over a quarter-million people a year – including 60,000 schoolchildren. You keep our city learning and growing into the future by empowering us to bring the past to life.</em></p>
+				<a href="" class="yellow-button">Join now</a>
 			</div>
 		</section>
 

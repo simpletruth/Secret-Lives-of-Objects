@@ -1,3 +1,69 @@
 /* ==========================================================================
  * Home
  * ========================================================================== */
+
+#press-room
+	h1
+		color: #fff
+		font-size: em(52)
+		text-align: center
+		margin-bottom: 2em
+		margin-top: 1em
+	h2
+		@include transition(border-color .5s, color .5s)
+		font-family: $oswald
+	h3
+		@include transition(border-color .5s, color .5s)
+		color: #eee
+		font-family: $ubuntu
+		font-weight: 400
+		text-transform: none
+	article
+		margin-bottom: 2em
+		a
+			@include transition(border-color .5s, color .5s)
+			border-bottom: 7px solid #222
+			display: block
+			padding: .5em 1em 1em 0em
+			position: relative
+			&::after
+				@include transition(border-color .5s, color .5s, right .5s)
+				color: #fff
+				content: '\00bb'
+				font-family: $ubuntu
+				font-weight: 400
+				line-height: 1
+				position: absolute
+				right: .1em
+			&:hover
+				@include transition(border-color .5s, color .5s)
+				border-bottom: 7px solid $yellow
+				h3
+					@include transition(border-color .5s, color .5s)
+					color: $yellow
+				&::after
+					@include transition(border-color .5s, color .5s, right .5s)
+					color: $yellow
+					right: 0
+
+	@include media(min-width 53.75em)
+		h1
+			font-size: em(52)
+		h2
+			font-size: em(28)
+		h3
+			font-size: em(16)
+		a::after
+			font-size: em(62)
+			top: 0
+
+	@include media(max-width 53.75em)
+		h1
+			font-size: em(46)
+		h2
+			font-size: em(22)
+		h3
+			font-size: em(14)
+		a::after
+			font-size: em(52)
+			top: .04em
