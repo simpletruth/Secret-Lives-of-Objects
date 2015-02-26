@@ -10,74 +10,74 @@
     <?php include('inc/ie6.php'); ?>
     <?php include('inc/header.php'); ?>
 
-		<section id="intro">
-			<div class="container">
+	<section id="intro">
+		<div class="container">
 
-				<div class="master-slider ms-skin-default" id="masterslider">
-				    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
-				        <img src="plugins/masterslider/blank.gif" data-src="img/slide-cane.jpg" alt="Item #416" />
-				        <div class="ms-layer ms-caption" data-resize="false">
-				        	<span class="item">Item #416</span>
-				        	<span class="riddle">I helped a "Little Tramp" stand tall.</span>
-				        </div>
-				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
-				            <span class="answer">Charlie Chaplin’s bamboo cane, c.1915</span>
-				        </div>
-				    </div>
+			<div class="master-slider ms-skin-default" id="masterslider">
+			    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+			        <img src="plugins/masterslider/blank.gif" data-src="img/slide-cane.jpg" alt="Item #416" />
+			        <div class="ms-layer ms-caption" data-resize="false">
+			        	<span class="item">Item #416</span>
+			        	<span class="riddle">I helped a "Little Tramp" stand tall.</span>
+			        </div>
+			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
+			            <span class="answer">Charlie Chaplin’s bamboo cane, c.1915</span>
+			        </div>
+			    </div>
 
-				    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
-				       <img src="plugins/masterslider/blank.gif" data-src="img/slide-desk.jpg" alt="Item #1,865" />
-				        <div class="ms-layer ms-caption" data-resize="false"  data-delay="0">
-				        	<span class="item">Item #1,865</span>
-				        	<span class="riddle">I witnessed the end of America's darkest chapter.</span>
-				        </div>
-				        <div class="ms-layer ms-reveal" data-resize="false"  data-effect="bottom(0|100 , true)" data-delay="3500">
-				            <span class="answer">Table from the McLean house at Appomattox CourtHouse, Virginia, c.1865</span>
-				        </div>
-				    </div>
+			    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+			       <img src="plugins/masterslider/blank.gif" data-src="img/slide-desk.jpg" alt="Item #1,865" />
+			        <div class="ms-layer ms-caption" data-resize="false"  data-delay="0">
+			        	<span class="item">Item #1,865</span>
+			        	<span class="riddle">I witnessed the end of America's darkest chapter.</span>
+			        </div>
+			        <div class="ms-layer ms-reveal" data-resize="false"  data-effect="bottom(0|100 , true)" data-delay="3500">
+			            <span class="answer">Table from the McLean house at Appomattox CourtHouse, Virginia, c.1865</span>
+			        </div>
+			    </div>
 
-				    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
-				        <img src="plugins/masterslider/blank.gif" data-src="img/slide-badge.jpg" alt="Item #6,876" />
-				        <div class="ms-layer ms-caption" data-resize="false">
-				        	<span class="item">Item #6,876</span>
-				        	<span class="riddle">I helped an alderman look the part.</span>
-				        </div>
-				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
-				            <span class="answer">Badge worn by First Ward Alderman Michael "Hinky Dink" Kenna</span>
-				        </div>
-				    </div>
+			    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+			        <img src="plugins/masterslider/blank.gif" data-src="img/slide-badge.jpg" alt="Item #6,876" />
+			        <div class="ms-layer ms-caption" data-resize="false">
+			        	<span class="item">Item #6,876</span>
+			        	<span class="riddle">I helped an alderman look the part.</span>
+			        </div>
+			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
+			            <span class="answer">Badge worn by First Ward Alderman Michael "Hinky Dink" Kenna</span>
+			        </div>
+			    </div>
 
-				    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
-				        <img src="plugins/masterslider/blank.gif" data-src="img/slide-revolver.jpg" alt="Item #521" />
-				        <div class="ms-layer ms-caption" data-resize="false">
-				        	<span class="item">Item #1,456</span>
-				        	<span class="riddle">I raided Harper's Ferry.</span>
-				        </div>
-				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
-				            <span class="answer">Owen Brown’s Colt Model 1851 Revolver, Massachusetts Arms Company, c. 1856</span>
-				        </div>
-				    </div>
+			    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+			        <img src="plugins/masterslider/blank.gif" data-src="img/slide-revolver.jpg" alt="Item #521" />
+			        <div class="ms-layer ms-caption" data-resize="false">
+			        	<span class="item">Item #1,456</span>
+			        	<span class="riddle">I raided Harper's Ferry.</span>
+			        </div>
+			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
+			            <span class="answer">Owen Brown’s Colt Model 1851 Revolver, Massachusetts Arms Company, c. 1856</span>
+			        </div>
+			    </div>
 
-				    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
-				        <img src="plugins/masterslider/blank.gif" data-src="img/slide-glasses.jpg" alt="Item #1,456" />
-				        <div class="ms-layer ms-caption" data-resize="false">
-				        	<span class="item">Item #521</span>
-				        	<span class="riddle">I brought two killers to justice.</span>
-				        </div>
-				        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
-				        	<span class="answer">Nathan Leopold's Eyeglasses, c. 1924</span>
-				        </div>
-				    </div>
-				    <!-- end of slide -->
-
-				</div>
-				<!-- end of masterslider -->
+			    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+			        <img src="plugins/masterslider/blank.gif" data-src="img/slide-glasses.jpg" alt="Item #1,456" />
+			        <div class="ms-layer ms-caption" data-resize="false">
+			        	<span class="item">Item #521</span>
+			        	<span class="riddle">I brought two killers to justice.</span>
+			        </div>
+			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
+			        	<span class="answer">Nathan Leopold's Eyeglasses, c. 1924</span>
+			        </div>
+			    </div>
+			    <!-- end of slide -->
 
 			</div>
+			<!-- end of masterslider -->
 
-			<!-- the 'jump down' button to scroll to next section -->
-			<!-- <a href="#section-features" class="jump-down"><i class="fa fa-chevron-down"></i></a> -->
-		</section>
+		</div>
+
+		<!-- the 'jump down' button to scroll to next section -->
+		<!-- <a href="#section-features" class="jump-down"><i class="fa fa-chevron-down"></i></a> -->
+	</section>
 
 	<div id="master-container">
 
@@ -137,6 +137,9 @@
 					</p>
 					<a href="https://www.google.com/maps/place/Chicago+History+Museum+Parking/@41.9135369,-87.6324362,18z/data=!4m7!1m4!3m3!1s0x880fd343bd18fb6d:0x4f731cdb732d79d1!2sChicago+History+Museum!3b1!3m1!1s0x880fd3426bde9bd1:0x2e9a69ea1b20bb4d" class="black-button" target="_blank">Parking directions</a>
 				</div>
+				<div class="full group-tours">
+					<p><strong>Want to bring a large group?</strong> Special discounted group rates available. Call 312-799-2162 or e-mail <a href="mailto:&#103;&#114;&#111;&#117;&#112;&#116;&#111;&#117;&#114;&#115;&#064;&#099;&#104;&#105;&#099;&#097;&#103;&#111;&#104;&#105;&#115;&#116;&#111;&#114;&#121;&#046;&#111;&#114;&#103;" target="_blank">&#103;&#114;&#111;&#117;&#112;&#116;&#111;&#117;&#114;&#115;&#064;&#099;&#104;&#105;&#099;&#097;&#103;&#111;&#104;&#105;&#115;&#116;&#111;&#114;&#121;&#046;&#111;&#114;&#103;</a> for details.</p>
+				</div>
 			</div>
 		</section>
 
@@ -151,7 +154,7 @@
 				</article>
 				<article class="right-col">
 					<h3>Event preview: For Your Eyes Only</h3>
-					<p>Museum members can enjoy exclusive access to a preview of The Secret Lives of Objects. We've handpicked this eclectic mix of artifacts from our extensive collection. Each one bears witness to history in its own remarkable way.</p>
+					<p>Museum members can enjoy exclusive access to a preview of <em>The Secret Lives of Objects</em>. We've handpicked this eclectic mix of artifacts from our extensive collection. Each one bears witness to history in its own remarkable way.</p>
 					<p><em>Saturday, March 21, 9:00<i>&ndash;</i>9:30 AM <br>Sunday, March 22, 11:00 AM<i>&ndash;</i>12:00 noon <br>Free for members. Reservations required. Coffee service and pastries included.</em></p>
 					<a href="http://www.eventbrite.com/e/member-only-hours-the-secret-lives-of-objects-exhibition-preview-tickets-15729449206?aff=affiliate10SLOOMicrosite" class="yellow-button" target="_blank">Members: RSVP for March 21st</a><br>
 					<a href="http://www.eventbrite.com/e/member-only-hours-the-secret-lives-of-objects-exhibition-preview-tickets-15729492335?aff=affiliate8SLOOMicrosite" class="yellow-button" target="_blank">Members: RSVP for March 22nd</a>
@@ -166,7 +169,7 @@
 			<div class="tilted-background"></div>
 			<div class="container">
 				<div class="left-col">
-					<h2>#SecretLives</h2>
+					<h2>#SecretObjects</h2>
 					<h3>What to share our secrets? No problem.</h3>
 				</div>
 				<div class="right-col">

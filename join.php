@@ -22,17 +22,28 @@
 		</div>
 	</header>
 
-	<section class="intro" id="section-intro">
-		<div class="image-bg" data-stellar-background-ratio=".8"></div>
+	<section id="intro">
 		<div class="container">
-			<div class="logo">
-				<a href="/"><h1><img src="img/logo-white.png" alt="logo"></h1></a>
+
+			<div class="master-slider ms-skin-default" id="masterslider">
+			    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+			        <img src="plugins/masterslider/blank.gif" data-src="img/slide-cane.jpg" alt="Item #416" />
+			        <div class="ms-layer ms-caption" data-resize="false">
+			        	<span class="item">Item #416</span>
+			        	<span class="riddle">I helped a "Little Tramp" stand tall.</span>
+			        </div>
+			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
+			            <span class="answer">Charlie Chaplin’s bamboo cane, c.1915</span>
+			        </div>
+			    </div>
+
 			</div>
-			<h3>Neat is a lightning quick landing page built on the cutting edge Bourbon Neat framework.</h3>
+			<!-- end of masterslider -->
+
 		</div>
 
 		<!-- the 'jump down' button to scroll to next section -->
-		<a href="#section-features" class="jump-down"><i class="fa fa-chevron-down"></i></a>
+		<!-- <a href="#section-features" class="jump-down"><i class="fa fa-chevron-down"></i></a> -->
 	</section>
 
 	<div id="master-container">

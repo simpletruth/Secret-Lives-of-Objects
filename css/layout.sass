@@ -35,6 +35,8 @@
 #info
 	.container
 		@include pad()
+		padding-top: 0
+		padding-bottom: 0
 	@include media(min-width 53.75em)
 		.col
 			@include span-columns(3)
@@ -47,14 +49,26 @@
 		.col:nth-child(4n)
 			@include span-columns(3)
 			@include omega()
+		.full
+			margin-top: 4em
+			@include span-columns(10)
+			@include shift(1)
 
 	@include media(min-width 30em max-width 53.75em)
 		.col
 			@include span-columns(6)
 		.col:nth-child(even)
 			@include omega()
+		.full
+			margin-top: 4em
+			@include span-columns(10)
+			@include shift(1)
 	@include media(max-width 30em)
 		.col
+			@include span-columns(10)
+			@include shift(1)
+		.full
+			margin-top: 4em
 			@include span-columns(10)
 			@include shift(1)
 

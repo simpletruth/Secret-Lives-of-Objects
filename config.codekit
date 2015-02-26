@@ -219,6 +219,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/fb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17382,
+		"inputAbbreviatedPath": "\/fb.jpg",
+		"outputAbbreviatedPath": "\/fb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/chm.svg.php": {
 		"fileType": 8192,
 		"ignore": 0,
