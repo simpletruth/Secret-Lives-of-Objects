@@ -277,17 +277,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/membership.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 63274,
-		"inputAbbreviatedPath": "\/img\/membership.jpg",
-		"outputAbbreviatedPath": "\/img\/membership.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/secret-lives-logo.svg.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -346,6 +335,17 @@
 		"initialSize": 56036,
 		"inputAbbreviatedPath": "\/img\/slide-glasses.jpg",
 		"outputAbbreviatedPath": "\/img\/slide-glasses.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slide-membership.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63274,
+		"inputAbbreviatedPath": "\/img\/slide-membership.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-membership.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

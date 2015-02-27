@@ -17,7 +17,7 @@
 				<span id="chm"><?php include('img/chm.svg.php'); ?></span>
 			</a>
 
-			<a href="/" class="back-to-home">&#8592; Back to home</a>
+			<a href="/" class="back-to-home">&#8592; <span>Back to </span>main<span> site</span></a>
 
 		</div>
 	</header>

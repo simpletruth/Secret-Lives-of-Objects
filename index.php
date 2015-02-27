@@ -160,7 +160,7 @@
 					<a href="http://www.eventbrite.com/e/member-only-hours-the-secret-lives-of-objects-exhibition-preview-tickets-15729492335?aff=affiliate8SLOOMicrosite" class="yellow-button" target="_blank">Members: RSVP for March 22nd</a>
 				</article>
 				<div class="full">
-					<a href="" class="membership-button">Want exclusive access? <span>Become a member.</span></a>
+					<a href="join.php" class="membership-button">Want exclusive access? <span>Become a member.</span></a>
 				</div>
 			</div>
 		</section>
