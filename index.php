@@ -4,11 +4,23 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<?php include('inc/head.php'); ?>
-<body class="<?php echo $body_class ?>">
+<?php
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/inc/head.php";
+   include_once($path);
+?>
+<body class="index">
 
-    <?php include('inc/ie6.php'); ?>
-    <?php include('inc/header.php'); ?>
+    <?php
+	   $path = $_SERVER['DOCUMENT_ROOT'];
+	   $path .= "/inc/ie6.php";
+	   include_once($path);
+	?>
+    <?php
+	   $path = $_SERVER['DOCUMENT_ROOT'];
+	   $path .= "/inc/header.php";
+	   include_once($path);
+	?>
 
 	<section id="intro">
 		<div class="container">
@@ -160,7 +172,7 @@
 					<a href="http://www.eventbrite.com/e/member-only-hours-the-secret-lives-of-objects-exhibition-preview-tickets-15729492335?aff=affiliate8SLOOMicrosite" class="yellow-button" target="_blank">Members: RSVP for March 22nd</a>
 				</article>
 				<div class="full">
-					<a href="join.php" class="membership-button">Want exclusive access? <span>Become a member.</span></a>
+					<a href="/join/" class="membership-button">Want exclusive access? <span>Become a member.</span></a>
 				</div>
 			</div>
 		</section>
@@ -203,15 +215,27 @@
 			<div class="container">
 				<h2>Even our secrets have secrets</h2>
 				<p>Visit our press room to learn more about <em>The Secret Lives of Objects.</em></p>
-				<a href="press.php" class="yellow-button">Press Room</a>
+				<a href="/press/" class="yellow-button">Press Room</a>
 			</div>
 		</section>
 
 	</div>
 
-    <?php include('inc/footer.php'); ?>
-    <?php include('inc/js.php');  ?>
-    <?php include('inc/analytics.php');  ?>
+     <?php
+	   $path = $_SERVER['DOCUMENT_ROOT'];
+	   $path .= "/inc/footer.php";
+	   include_once($path);
+	?>
+    <?php
+	   $path = $_SERVER['DOCUMENT_ROOT'];
+	   $path .= "/inc/js.php";
+	   include_once($path);
+	?>
+    <?php
+	   $path = $_SERVER['DOCUMENT_ROOT'];
+	   $path .= "/inc/analytics.php";
+	   include_once($path);
+	?>
 
 </body>
 </html>

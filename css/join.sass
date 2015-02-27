@@ -144,6 +144,9 @@ body.join #compare  // pulled out separate from both this file and layout.sass d
 				padding: 0
 				text-transform: none
 				margin: .3em 0 0
+			.th
+				padding-bottom: 1em !important
+				padding-top: 1em !important
 		.tr
 			display: table-row
 			width: 100%
@@ -154,6 +157,13 @@ body.join #compare  // pulled out separate from both this file and layout.sass d
 				padding: .5em
 				text-align: center
 				vertical-align: middle
+				b
+					font-weight: 700
+					font-size: 1.7em
+					line-height: .5em
+					position: relative
+					top: .2em
+
 			.desc
 				text-align: left
 			.core-2
@@ -174,14 +184,26 @@ body.join #compare  // pulled out separate from both this file and layout.sass d
 				text-transform: uppercase
 				line-height: 1
 			span.strike
-				display: block
+				color: #eee
+				display: inline-block
+				font-family: $oswald
+				margin: 0 0 .25em
+				position: relative
+				i
+					@include transform(rotate(-22.5deg))
+					border-bottom: 2px solid #eee
+					content: ' '
+					display: block
+					height: 1px
+					left: -5%
+					position: absolute
+					top: 50%
+					width: 110%
 			span.cost
 				color: $yellow
 				display: block
 				font-family: $oswald
 				margin: 0 0 .25em
-
-
 
 		@include media(min-width 53.75em)
 			.table-header-row
@@ -191,9 +213,6 @@ body.join #compare  // pulled out separate from both this file and layout.sass d
 			.tr
 				.core-2, .core-4, .prem-2,.prem-4
 					vertical-align: middle
-				// .td-pad
-				// 	display: inline-block
-				// 	@include column-span(2)
 		.tr.pricing
 			.core-2, .core-4
 				a.join-button
@@ -201,6 +220,10 @@ body.join #compare  // pulled out separate from both this file and layout.sass d
 			.prem-2, .prem-4
 				a.join-button
 					font-size: em(21)
+			span.strike
+				font-size: em(22)
+				position: relative
+				top: .2em
 			span.cost
 				font-size: em(44)
 
@@ -214,7 +237,15 @@ body.join #compare  // pulled out separate from both this file and layout.sass d
 					font-size: em(12)
 				.td-pad
 					display: none
-					display: none
 			.tr.pricing
 				span.cost
 					font-size: em(30)
+
+		@include media(min-width 53.75em)
+			.tr
+				.core-2, .core-4, .prem-2,.prem-4
+					width: 5em
+		@include media(min-width 57.75em)
+			.tr
+				.core-2, .core-4, .prem-2,.prem-4
+					width: 6em

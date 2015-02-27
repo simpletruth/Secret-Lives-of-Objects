@@ -4,17 +4,37 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<?php include('inc/head.php'); ?>
-<body class="<?php echo $body_class ?>">
+<?php
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/inc/head.php";
+   include_once($path);
+?>
+<body class="join">
 
-    <?php include('inc/ie6.php'); ?>
+    <?php
+	   $path = $_SERVER['DOCUMENT_ROOT'];
+	   $path .= "/inc/ie6.php";
+	   include_once($path);
+	?>
 	<header id="navigation" class="navigation headroom">
 		<div class="navigation-wrapper">
 
 			<!-- logo - you can put yours here -->
 			<a href="/" class="logo">
-				<span id="secret-lives"><?php include('img/secret-lives-logo.svg.php'); ?></span>
-				<span id="chm"><?php include('img/chm.svg.php'); ?></span>
+				<span id="secret-lives">
+				    <?php
+					   $path = $_SERVER['DOCUMENT_ROOT'];
+					   $path .= "/img/secret-lives-logo.svg.php";
+					   include_once($path);
+					?>
+				</span>
+				<span id="chm">
+					<?php
+					   $path = $_SERVER['DOCUMENT_ROOT'];
+					   $path .= "/img/chm.svg.php";
+					   include_once($path);
+					?>
+				</span>
 			</a>
 
 			<a href="/" class="back-to-home">&#8592; <span>Back to </span>main<span> site</span></a>
@@ -27,7 +47,7 @@
 
 			<div class="master-slider ms-skin-default" id="masterslider">
 			    <div class="ms-slide" data-fill-mode="fit" data-delay="999999999999">
-			        <img src="plugins/masterslider/blank.gif" data-src="img/slide-membership.jpg" alt="Item #416" />
+			        <img src="/plugins/masterslider/blank.gif" data-src="/img/slide-membership.jpg" alt="Item #416" />
 			        <div class="ms-layer ms-caption" data-resize="false">
 			        	<span class="answer">Seeking more secrets?</span>
 			        </div>
@@ -86,7 +106,7 @@
 		<section id="join-by-date">
 			<div class="container">
 				<div class="left-col">
-					<?php include('img/secret-lives-logo.svg.php'); ?>
+					<?php include('../img/secret-lives-logo.svg.php'); ?>
 				</div>
 				<div class="right-col">
 					<h2>Join by March 21</h2>
@@ -148,104 +168,104 @@
 					<div class="tr">
 						<div class="td td-pad"></div>
 						<div class="td desc">Exclusive member previews of exhibition openings</div>
-						<div class="td core-2">&bull;</div>
-						<div class="td core-4">&bull;</div>
-						<div class="td prem-2">&bull;</div>
-						<div class="td prem-4">&bull;</div>
+						<div class="td core-2"><b>&bull;</b></div>
+						<div class="td core-4"><b>&bull;</b></div>
+						<div class="td prem-2"><b>&bull;</b></div>
+						<div class="td prem-4"><b>&bull;</b></div>
 						<div class="td td-pad"></div>
 					</div>
 					<div class="tr">
 						<div class="td td-pad"></div>
 						<div class="td desc">Discounts at the Museum Store and North & Clark Café, plus double discount days</div>
-						<div class="td core-2">&bull;</div>
-						<div class="td core-4">&bull;</div>
-						<div class="td prem-2 prem-2">&bull;</div>
-						<div class="td prem-4">&bull;</div>
+						<div class="td core-2"><b>&bull;</b></div>
+						<div class="td core-4"><b>&bull;</b></div>
+						<div class="td prem-2"><b>&bull;</b></div>
+						<div class="td prem-4"><b>&bull;</b></div>
 						<div class="td td-pad"></div>
 					</div>
 					<div class="tr">
 						<div class="td td-pad"></div>
 						<div class="td desc">Member e-newsletter</div>
-						<div class="td core-2">&bull;</div>
-						<div class="td core-4">&bull;</div>
-						<div class="td prem-2">&bull;</div>
-						<div class="td prem-4">&bull;</div>
+						<div class="td core-2"><b>&bull;</b></div>
+						<div class="td core-4"><b>&bull;</b></div>
+						<div class="td prem-2"><b>&bull;</b></div>
+						<div class="td prem-4"><b>&bull;</b></div>
 						<div class="td td-pad"></div>
 					</div>
 					<div class="tr">
 						<div class="td td-pad"></div>
 						<div class="td desc">Access to members-only parking spaces</div>
-						<div class="td core-2">&bull;</div>
-						<div class="td core-4">&bull;</div>
-						<div class="td prem-2">&bull;</div>
-						<div class="td prem-4">&bull;</div>
+						<div class="td core-2"><b>&bull;</b></div>
+						<div class="td core-4"><b>&bull;</b></div>
+						<div class="td prem-2"><b>&bull;</b></div>
+						<div class="td prem-4"><b>&bull;</b></div>
 						<div class="td td-pad"></div>
 					</div>
 					<div class="tr">
 						<div class="td td-pad"></div>
 						<div class="td desc">Access to members lounge at select events</div>
-						<div class="td core-2">&bull;</div>
-						<div class="td core-4">&bull;</div>
-						<div class="td prem-2">&bull;</div>
-						<div class="td prem-4">&bull;</div>
+						<div class="td core-2"><b>&bull;</b></div>
+						<div class="td core-4"><b>&bull;</b></div>
+						<div class="td prem-2"><b>&bull;</b></div>
+						<div class="td prem-4"><b>&bull;</b></div>
 						<div class="td td-pad"></div>
 					</div>
 					<div class="tr">
 						<div class="td td-pad"></div>
 						<div class="td desc">Subscription to Chicago History magazine</div>
-						<div class="td core-2">&nbsp;</div>
-						<div class="td core-4">&nbsp;</div>
-						<div class="td prem-2">&bull;</div>
-						<div class="td prem-4">&bull;</div>
+						<div class="td core-2"><b>&nbsp;</b></div>
+						<div class="td core-4"><b>&nbsp;</b></div>
+						<div class="td prem-2"><b>&bull;</b></div>
+						<div class="td prem-4"><b>&bull;</b></div>
 						<div class="td td-pad"></div>
 					</div>
 					<div class="tr">
 						<div class="td td-pad"></div>
 						<div class="td desc">Free parking on Museum visits</div>
-						<div class="td core-2">&nbsp;</div>
-						<div class="td core-4">&nbsp;</div>
-						<div class="td prem-2">&bull;</div>
-						<div class="td prem-4">&bull;</div>
+						<div class="td core-2"><b>&nbsp;</b></div>
+						<div class="td core-4"><b>&nbsp;</b></div>
+						<div class="td prem-2"><b>&bull;</b></div>
+						<div class="td prem-4"><b>&bull;</b></div>
 						<div class="td td-pad"></div>
 					</div>
 					<div class="tr">
 						<div class="td td-pad"></div>
 						<div class="td desc">Priority registration for select programs and ticketed events</div>
-						<div class="td core-2">&nbsp;</div>
-						<div class="td core-4">&nbsp;</div>
-						<div class="td prem-2">&bull;</div>
-						<div class="td prem-4">&bull;</div>
+						<div class="td core-2"><b>&nbsp;</b></div>
+						<div class="td core-4"><b>&nbsp;</b></div>
+						<div class="td prem-2"><b>&bull;</b></div>
+						<div class="td prem-4"><b>&bull;</b></div>
 						<div class="td td-pad"></div>
 					</div>
 					<div class="tr">
 						<div class="td td-pad"></div>
 						<div class="td desc">One-time use Museum passes to share with friends and family</div>
-						<div class="td core-2">&nbsp;</div>
-						<div class="td core-4">&nbsp;</div>
-						<div class="td prem-2">&bull;</div>
-						<div class="td prem-4">&bull;</div>
+						<div class="td core-2"><b>&nbsp;</b></div>
+						<div class="td core-4"><b>&nbsp;</b></div>
+						<div class="td prem-2"><b>&bull;</b></div>
+						<div class="td prem-4"><b>&bull;</b></div>
 						<div class="td td-pad"></div>
 					</div>
 					<div class="tr pricing">
 						<div class="td td-pad"></div>
 						<div class="td desc"></div>
 						<div class="td core-2">
-							<span class="strike">$70</span>
+							<span class="strike">$70<i></i></span>
 							<span class="cost">$59</span>
 							<a href="#" class="join-button">Join now</a>
 						</div>
 						<div class="td core-4">
-							<span class="strike">$90</span>
+							<span class="strike">$90<i></i></span>
 							<span class="cost">$79</span>
 							<a href="#" class="join-button">Join now</a>
 						</div>
 						<div class="td prem-2">
-							<span class="strike">$100</span>
+							<span class="strike">$100<i></i></span>
 							<span class="cost">$89</span>
 							<a href="#" class="join-button">Join now</a>
 						</div>
 						<div class="td prem-4">
-							<span class="strike">$120</span>
+							<span class="strike">$120<i></i></span>
 							<span class="cost">$109</span>
 							<a href="#" class="join-button">Join now</a>
 						</div>
@@ -269,9 +289,21 @@
 
 	</div>
 
-    <?php include('inc/footer.php'); ?>
-    <?php include('inc/js.php');  ?>
-    <?php include('inc/analytics.php');  ?>
+    <?php
+	   $path = $_SERVER['DOCUMENT_ROOT'];
+	   $path .= "/inc/footer.php";
+	   include_once($path);
+	?>
+    <?php
+	   $path = $_SERVER['DOCUMENT_ROOT'];
+	   $path .= "/inc/js.php";
+	   include_once($path);
+	?>
+    <?php
+	   $path = $_SERVER['DOCUMENT_ROOT'];
+	   $path .= "/inc/analytics.php";
+	   include_once($path);
+	?>
 
 </body>
 </html>

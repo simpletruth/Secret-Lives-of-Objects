@@ -4,17 +4,37 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<?php include('inc/head.php'); ?>
-<body class="<?php echo $body_class ?>">
+<?php
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/inc/head.php";
+   include_once($path);
+?>
+<body class="press">
 
-    <?php include('inc/ie6.php'); ?>
+    <?php
+	   $path = $_SERVER['DOCUMENT_ROOT'];
+	   $path .= "/inc/ie6.php";
+	   include_once($path);
+	?>
 	<header id="navigation" class="navigation headroom">
 		<div class="navigation-wrapper">
 
 			<!-- logo - you can put yours here -->
 			<a href="/" class="logo">
-				<span id="secret-lives"><?php include('img/secret-lives-logo.svg.php'); ?></span>
-				<span id="chm"><?php include('img/chm.svg.php'); ?></span>
+				<span id="secret-lives">
+				    <?php
+					   $path = $_SERVER['DOCUMENT_ROOT'];
+					   $path .= "/img/secret-lives-logo.svg.php";
+					   include_once($path);
+					?>
+				</span>
+				<span id="chm">
+					<?php
+					   $path = $_SERVER['DOCUMENT_ROOT'];
+					   $path .= "/img/chm.svg.php";
+					   include_once($path);
+					?>
+				</span>
 			</a>
 
 			<a href="/" class="back-to-home">&#8592; <span>Back to </span>main<span> site</span></a>
@@ -70,9 +90,21 @@
 
 	</div>
 
-    <?php include('inc/footer.php'); ?>
-    <?php include('inc/js.php');  ?>
-    <?php include('inc/analytics.php');  ?>
+     <?php
+	   $path = $_SERVER['DOCUMENT_ROOT'];
+	   $path .= "/inc/footer.php";
+	   include_once($path);
+	?>
+    <?php
+	   $path = $_SERVER['DOCUMENT_ROOT'];
+	   $path .= "/inc/js.php";
+	   include_once($path);
+	?>
+    <?php
+	   $path = $_SERVER['DOCUMENT_ROOT'];
+	   $path .= "/inc/analytics.php";
+	   include_once($path);
+	?>
 
 </body>
 </html>
