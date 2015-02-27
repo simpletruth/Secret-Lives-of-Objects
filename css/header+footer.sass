@@ -2,29 +2,27 @@ header#navigation
 	background-color: #000
 	border-bottom: 1px solid rgba(255,255,255,.3)
 	a.logo
+		display: inline-block
+		padding-right: 1em
 		#secret-lives
-			display: inline-block
 			position: relative
 			top: 7px
-			width: 70px
 			svg
 				height: 77px
 				width: 62px
-		#chm
-			display: inline-block
-			position: relative
-			left: 10px
-			top: -18px
-			width: 179px
 		@include media(max-width 28em)
-			#secret-lives
-				width: 55px
-				svg
-					width: 55px
-			#chm
-				width: 130px
-				svg
-					width: 130px
+			width: 55px
+	a.chm-logo
+		display: inline-block
+		padding: 3px
+		position: relative
+		top: 40px
+		width: 159px
+		svg
+			width: 100%
+	@include media(max-width 28em)
+		a.chm-logo
+			width: 130px
 	@include media(max-width 53.75em)
 		&.headroom
 			ul li.nav-link
@@ -34,6 +32,12 @@ header#navigation
 			.navigation-menu-button:hover
 				@include transition(color .5s)
 				color: $yellow
+	@include media(min-width 53.75em)
+		&.headroom
+			.nav
+				right: 0
+				position: absolute
+				top: 0
 
 	.nav
 		li a

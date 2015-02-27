@@ -168,8 +168,8 @@
 					<h3>Event preview: For Your Eyes Only</h3>
 					<p>Museum members can enjoy exclusive access to a preview of <em>The Secret Lives of Objects</em>. We've handpicked this eclectic mix of artifacts from our extensive collection. Each one bears witness to history in its own remarkable way.</p>
 					<p><em>Saturday, March 21, 9:00<i>&ndash;</i>9:30 AM <br>Sunday, March 22, 11:00 AM<i>&ndash;</i>12:00 noon <br>Free for members. Reservations required. Coffee service and pastries included.</em></p>
-					<a href="http://www.eventbrite.com/e/member-only-hours-the-secret-lives-of-objects-exhibition-preview-tickets-15729449206?aff=affiliate10SLOOMicrosite" class="yellow-button" target="_blank">Members: RSVP for March 21st</a><br>
-					<a href="http://www.eventbrite.com/e/member-only-hours-the-secret-lives-of-objects-exhibition-preview-tickets-15729492335?aff=affiliate8SLOOMicrosite" class="yellow-button" target="_blank">Members: RSVP for March 22nd</a>
+					<a href="http://www.eventbrite.com/e/member-only-hours-the-secret-lives-of-objects-exhibition-preview-tickets-15729449206?aff=affiliate10SLOOMicrosite" class="yellow-button" target="_blank">Members: RSVP for March 21</a><br>
+					<a href="http://www.eventbrite.com/e/member-only-hours-the-secret-lives-of-objects-exhibition-preview-tickets-15729492335?aff=affiliate8SLOOMicrosite" class="yellow-button" target="_blank">Members: RSVP for March 22</a>
 				</article>
 				<div class="full">
 					<a href="/join/" class="membership-button">Want exclusive access? <span>Become a member.</span></a>
@@ -182,11 +182,11 @@
 			<div class="container">
 				<div class="left-col">
 					<h2>#SecretObjects</h2>
-					<h3>What to share our secrets? No problem.</h3>
+					<h3>Want to share our secrets? No problem.</h3>
 				</div>
 				<div class="right-col">
 					<a href="http://www.facebook.com/share.php?u=secretlivesobjects.com" class="facebook social" target="_blank"><?php include('img/facebook.svg.php'); ?></a>
-					<a href="https://twitter.com/share?text=I%27m%20going%20to%20Secret%20Lives%20of%20Objects%20at%20@ChicagoMuseum!&url=http://secretlivesobjects.com" class="twitter social" target="_blank"><?php include('img/twitter.svg.php'); ?></a>
+					<a href="https://twitter.com/share?text=Uncovering%20secrets%20about%20Chicago%27s%20unexpected history at%20@ChicagoMuseum%20%23SecretObjects&url=http://secretlivesobjects.com" class="twitter social" target="_blank"><?php include('img/twitter.svg.php'); ?></a>
 					<a href="https://instagram.com/chicagomuseum/" class="instagram social" target="_blank"><?php include('img/instagram.svg.php'); ?></a>
 				</div>
 			</div>
@@ -215,7 +215,7 @@
 			<div class="container">
 				<h2>Even our secrets have secrets</h2>
 				<p>Visit our press room to learn more about <em>The Secret Lives of Objects.</em></p>
-				<a href="/press/" class="yellow-button">Press Room</a>
+				<a href="/press/" class="yellow-button">Press room</a>
 			</div>
 		</section>
 

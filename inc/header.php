@@ -4,8 +4,8 @@
 	<!-- logo - you can put yours here -->
 	<a href="/" class="logo">
 		<span id="secret-lives"><?php include('img/secret-lives-logo.svg.php'); ?></span>
-		<span id="chm"><?php include('img/chm.svg.php'); ?></span>
 	</a>
+	<a href="http://chicagohistory.org" class="chm-logo"><span id="chm"><?php include('img/chm.svg.php'); ?></span></a>
 
 	<!-- mobile menu toggle -->
 	<a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
