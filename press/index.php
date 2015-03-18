@@ -28,6 +28,8 @@
 					   include_once($path);
 					?>
 				</span>
+			</a>
+			<a href="http://chicagohistory.org" class="chm-logo">
 				<span id="chm">
 					<?php
 					   $path = $_SERVER['DOCUMENT_ROOT'];

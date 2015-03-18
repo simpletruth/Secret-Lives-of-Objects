@@ -26,58 +26,58 @@
 		<div class="container">
 
 			<div class="master-slider ms-skin-default" id="masterslider">
-			    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+			    <div class="ms-slide" data-fill-mode="fit" data-delay="6">
 			        <img src="plugins/masterslider/blank.gif" data-src="img/slide-cane.jpg" alt="Item #416" />
 			        <div class="ms-layer ms-caption" data-resize="false">
 			        	<span class="item">Item #416</span>
 			        	<span class="riddle">I helped a "Little Tramp" stand tall.</span>
 			        </div>
-			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
-			            <span class="answer">Charlie Chaplin’s bamboo cane, c.1915</span>
+			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="2000">
+			            <span class="answer">Charlie Chaplin’s bamboo cane, c. 1915</span>
 			        </div>
 			    </div>
 
-			    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+			    <div class="ms-slide" data-fill-mode="fit" data-delay="6">
 			       <img src="plugins/masterslider/blank.gif" data-src="img/slide-desk.jpg" alt="Item #1,865" />
 			        <div class="ms-layer ms-caption" data-resize="false"  data-delay="0">
 			        	<span class="item">Item #1,865</span>
 			        	<span class="riddle">I witnessed the end of America's darkest chapter.</span>
 			        </div>
-			        <div class="ms-layer ms-reveal" data-resize="false"  data-effect="bottom(0|100 , true)" data-delay="3500">
-			            <span class="answer">Table from the McLean house at Appomattox CourtHouse, Virginia, c.1865</span>
+			        <div class="ms-layer ms-reveal" data-resize="false"  data-effect="bottom(0|100 , true)" data-delay="2000">
+			            <span class="answer">Table from Wilmer McLean’s house in Appomattox Court House, Virginia, c. 1860</span>
 			        </div>
 			    </div>
 
-			    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+			    <div class="ms-slide" data-fill-mode="fit" data-delay="6">
 			        <img src="plugins/masterslider/blank.gif" data-src="img/slide-badge.jpg" alt="Item #6,876" />
 			        <div class="ms-layer ms-caption" data-resize="false">
 			        	<span class="item">Item #6,876</span>
 			        	<span class="riddle">I helped an alderman look the part.</span>
 			        </div>
-			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
-			            <span class="answer">Badge worn by First Ward Alderman Michael "Hinky Dink" Kenna</span>
+			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="2000">
+			            <span class="answer">Badge given to First Ward Alderman Michael “Hinky Dink” Kenna, 1897</span>
 			        </div>
 			    </div>
 
-			    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+			    <div class="ms-slide" data-fill-mode="fit" data-delay="6">
 			        <img src="plugins/masterslider/blank.gif" data-src="img/slide-revolver.jpg" alt="Item #521" />
 			        <div class="ms-layer ms-caption" data-resize="false">
 			        	<span class="item">Item #1,456</span>
 			        	<span class="riddle">I raided Harper's Ferry.</span>
 			        </div>
-			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
-			            <span class="answer">Owen Brown’s Colt Model 1851 Revolver, Massachusetts Arms Company, c. 1856</span>
+			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="2000">
+			            <span class="answer">Owen Brown’s Colt revolver, c. 1856</span>
 			        </div>
 			    </div>
 
-			    <div class="ms-slide" data-fill-mode="fit" data-delay="10">
+			    <div class="ms-slide" data-fill-mode="fit" data-delay="6">
 			        <img src="plugins/masterslider/blank.gif" data-src="img/slide-glasses.jpg" alt="Item #1,456" />
 			        <div class="ms-layer ms-caption" data-resize="false">
 			        	<span class="item">Item #521</span>
 			        	<span class="riddle">I brought two killers to justice.</span>
 			        </div>
-			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
-			        	<span class="answer">Nathan Leopold's Eyeglasses, c. 1924</span>
+			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="2000">
+			        	<span class="answer">Nathan F. Leopold Jr.’s eyeglasses, c. 1924</span>
 			        </div>
 			    </div>
 			    <!-- end of slide -->
@@ -101,9 +101,9 @@
 				<div class="middle-col">&nbsp;</div>
 				<div class="left-col">
 					<h2>Want to hear a story? <span>We've got plenty to tell.</span></h2>
-					<p>Pulled from the darkened shelves and hidden crates of the Museum's collection storage rooms, we're finally getting our chance in the spotlight...and we have some pretty remarkable stories to tell.</p>
+					<p>Pulled from the darkened shelves and hidden crates of the Museum's collection storage rooms, we're finally getting our chance in the spotlight&#8230;and we have some pretty remarkable stories to tell.</p>
 					<p>We're from around the city, across the country, and throughout history. Some of us have survived the years unscathed, while some are proud of our hard-earned dings and dents. We all have our secrets, and together we've made history.</p>
-					<p>Come on in and see for yourself.</p>
+					<p>Stop by and see for yourself.</p>
 					<p>Sincerely,<br>
 					<span class="signature"><?php include('img/signature.svg.php'); ?></span></p>
 				</div>
@@ -115,21 +115,21 @@
 			<div class="container">
 				<div class="col">
 					<h3>Admission</h3>
-					<p><strong>Access to this exhibit is included <br>with Museum admission</strong><br>
+					<p><strong>Access to this exhibition is included <br>with Museum admission</strong><br>
 					$14 adults<br>
 					$12 seniors/students<br>
-					Free to children 12 and under
+					Free for children 12 and under
 					</p>
 				</div>
 				<div class="col">
 					<h3>Hours</h3>
 					<p>
 						<strong>Monday to Saturday</strong><br>
-						9:30 AM to 4:30 PM
+						9:30 AM to 4:30 <span class="time">PM</span>
 					</p>
 					<p>
 						<strong>Sunday</strong><br>
-						Noon to 5:00 PM
+						Noon to 5:00 <span class="time">PM</span>
 					</p>
 				</div>
 				<div class="col">
@@ -160,14 +160,14 @@
 				<h2>Member events</h2>
 				<article class="left-col">
 					<h3>Tales from the archives</h3>
-					<p>The Museum's chief historian, Russell Lewis, and curator John Russick reveal previously undisclosed secrets about the 22,000,000 artifacts and documents in our collection.</p>
-					<p><em>Tuesday, May 19, 6:00<i>&ndash;</i>7:30 PM <br>$20 members, $25 guests. RSVP required.</em></p>
+					<p>The Museum's chief historian Russell Lewis and curator John Russick reveal previously undisclosed secrets about the 22 million artifacts and documents in our collection.</p>
+					<p><em>Tuesday, May 19, 6:00<i>&ndash;</i>7:30 <span class="time">PM</span> <br>$20 members, $25 guests. RSVP required.</em></p>
 					<a href="http://www.eventbrite.com/e/member-only-program-tell-me-more-tell-me-more-tickets-15729433158?aff=affiliate8SLOOMicrosite" class="yellow-button" target="_blank">Get tickets</a>
 				</article>
 				<article class="right-col">
 					<h3>Event preview: For Your Eyes Only</h3>
-					<p>Museum members can enjoy exclusive access to a preview of <em>The Secret Lives of Objects</em>. We've handpicked this eclectic mix of artifacts from our extensive collection. Each one bears witness to history in its own remarkable way.</p>
-					<p><em>Saturday, March 21, 9:00<i>&ndash;</i>9:30 AM <br>Sunday, March 22, 11:00 AM<i>&ndash;</i>12:00 noon <br>Free for members. Reservations required. Coffee service and pastries included.</em></p>
+					<p>Museum members enjoy exclusive access to <em>The Secret Lives of Objects</em>. We've handpicked this eclectic mix of artifacts from our extensive collection. Each one bears witness to history in its own remarkable way.</p>
+					<p><em>Saturday, March 21, 9:00<i>&ndash;</i>9:30 <span class="time">AM</span> <br>Sunday, March 22, 11:00 <span class="time">AM</span><i>&ndash;</i>12:00 <span class="time">noon</span> <br>Free for members. Reservations required. Coffee service and pastries included.</em></p>
 					<a href="http://www.eventbrite.com/e/member-only-hours-the-secret-lives-of-objects-exhibition-preview-tickets-15729449206?aff=affiliate10SLOOMicrosite" class="yellow-button" target="_blank">Members: RSVP for March 21</a><br>
 					<a href="http://www.eventbrite.com/e/member-only-hours-the-secret-lives-of-objects-exhibition-preview-tickets-15729492335?aff=affiliate8SLOOMicrosite" class="yellow-button" target="_blank">Members: RSVP for March 22</a>
 				</article>
@@ -215,7 +215,8 @@
 			<div class="container">
 				<h2>Even our secrets have secrets</h2>
 				<p>Visit our press room to learn more about <em>The Secret Lives of Objects.</em></p>
-				<a href="/press/" class="yellow-button">Press room</a>
+				<!-- <a href="/press/" class="yellow-button">Press room</a> -->
+				<h4>Coming soon!</h4>
 			</div>
 		</section>
 
@@ -231,6 +232,20 @@
 	   $path .= "/inc/js.php";
 	   include_once($path);
 	?>
+	<script>
+		var slider = new MasterSlider();
+		slider.setup('masterslider', {
+		        width:1086,
+		        height:720,
+		        space:0,
+		        autoplay:true,
+		        loop:true,
+		        overPause:false,
+		        speed:30,
+		        shuffle:'true',
+		        view:'mask'
+		    });
+	</script>
     <?php
 	   $path = $_SERVER['DOCUMENT_ROOT'];
 	   $path .= "/inc/analytics.php";

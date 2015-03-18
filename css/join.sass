@@ -2,15 +2,27 @@
  * Home
  * ========================================================================== */
 
+.join-button
+	@include transition(background .5s)
+	background-color: $yellow
+	color: #000 !important
+	display: inline-block
+	font-family: $oswald
+	font-size: em(18)
+	padding: .5em .8em
+	text-transform: uppercase
+	line-height: 1
+	&:hover
+		@include transition(background .5s)
+		background: #ffe96f
+		color: #000 !important
+	&:focus, &:select, &:visited, &:target, &:active
+		color: #000 !important
+
 body.join
 	section.intro
 		position: relative
 		z-index: 1
-
-	#masterslider
-		.riddle
-			font-size: .8em
-			text-transform: uppercase
 
 	#master-container
 		position: relative
@@ -47,6 +59,9 @@ body.join
 					font-size: 14px
 					font-family: $ubuntu
 					font-style: italic
+					&:hover
+						@include transition(color .5s)
+						color: #ffe96f
 			@include media(max-width 53.3em)
 				margin-top: 0
 				.tilted-background
@@ -74,11 +89,15 @@ body.join
 					line-height: 1.2
 				p
 					margin-bottom: 1em
-				a
-					color: $yellow
-					font-size: 14px
-					font-family: $ubuntu
-					font-style: italic
+				// a
+				// 	@include transition(color .5s)
+				// 	color: $yellow
+				// 	font-size: 14px
+				// 	font-family: $ubuntu
+				// 	font-style: italic
+				// 	&:hover
+				// 		@include transition(color .5s)
+				// 		color: #ffe96f
 			@include media(max-width 53.3em)
 				.left-col
 					text-align: center
@@ -121,6 +140,62 @@ body.join
 			a.yellow-button
 				left: -20px
 				position: relative
+
+
+@include media(max-width 42em)
+	body.join #masterslider
+		.riddle
+			font-size: .7em
+			text-transform: uppercase
+		.join-button
+			display: inline-block
+			font-size: em(15)
+			position: relative
+			top: 10px
+		.ms-slide
+			.ms-slide-bgcont
+				top: -50px
+			.ms-caption
+				bottom: 90px !important
+			.ms-reveal
+				bottom: 50px !important
+
+
+@include media(min-width 42em max-width 53.3em)
+	body.join #masterslider
+		.riddle
+			font-size: .8em
+			text-transform: uppercase
+		.join-button
+			display: inline-block
+			font-size: em(18)
+			position: relative
+			top: 10px
+		.ms-slide
+			.ms-slide-bgcont
+				top: -50px
+			.ms-caption
+				bottom: 80px !important
+			.ms-reveal
+				bottom: 15px !important
+
+@include media(min-width 53.3em)
+	body.join #masterslider
+		.riddle
+			font-size: .8em
+			text-transform: uppercase
+		.join-button
+			display: inline-block
+			font-size: em(21)
+			position: relative
+			top: 10px
+		.ms-slide
+			.ms-slide-bgcont
+				top: -100px
+			.ms-caption
+				bottom: 250px !important
+			.ms-reveal
+				bottom: 160px !important
 
 
 body.join #compare  // pulled out separate from both this file and layout.sass due to complexity
@@ -175,14 +250,6 @@ body.join #compare  // pulled out separate from both this file and layout.sass d
 			.prem-4
 				background-color: rgba(255,255,255,.03)
 		.tr.pricing
-			a.join-button
-				background-color: $yellow
-				color: #000
-				display: block
-				font-family: $oswald
-				padding: .5em
-				text-transform: uppercase
-				line-height: 1
 			span.strike
 				color: #eee
 				display: inline-block
@@ -204,6 +271,9 @@ body.join #compare  // pulled out separate from both this file and layout.sass d
 				display: block
 				font-family: $oswald
 				margin: 0 0 .25em
+			.join-button
+				display: block
+				padding: .5em
 
 		@include media(min-width 53.75em)
 			.table-header-row
@@ -215,10 +285,10 @@ body.join #compare  // pulled out separate from both this file and layout.sass d
 					vertical-align: middle
 		.tr.pricing
 			.core-2, .core-4
-				a.join-button
+				.join-button
 					font-size: em(18)
 			.prem-2, .prem-4
-				a.join-button
+				.join-button
 					font-size: em(21)
 			span.strike
 				font-size: em(22)

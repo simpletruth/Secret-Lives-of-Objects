@@ -28,6 +28,8 @@
 					   include_once($path);
 					?>
 				</span>
+			</a>
+			<a href="http://chicagohistory.org" class="chm-logo">
 				<span id="chm">
 					<?php
 					   $path = $_SERVER['DOCUMENT_ROOT'];
@@ -42,21 +44,34 @@
 		</div>
 	</header>
 
+
+	<!-- logo - you can put yours here -->
+	<a href="/" class="logo">
+		<span id="secret-lives"><?php include('img/secret-lives-logo.svg.php'); ?></span>
+	</a>
+	<a href="http://chicagohistory.org" class="chm-logo"><span id="chm"><?php include('img/chm.svg.php'); ?></span></a>
+
+	<!-- mobile menu toggle -->
+	<a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+
 	<section id="intro">
 		<div class="container">
 
-			<div class="master-slider ms-skin-default" id="masterslider">
-			    <div class="ms-slide" data-fill-mode="fit" data-delay="999999999999">
-			        <img src="/plugins/masterslider/blank.gif" data-src="/img/slide-membership.jpg" alt="Item #416" />
-			        <div class="ms-layer ms-caption" data-resize="false">
-			        	<span class="answer">Seeking more secrets?</span>
-			        </div>
-			        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="3000">
-			        	<span class="riddle">Save on the perks of a museum membership, available for a limited time.</span>
-			        </div>
-			    </div>
+			<a href="#compare" target="_blank">
+				<div class="master-slider ms-skin-default" id="masterslider">
+				    <div class="ms-slide" data-fill-mode="fit" data-delay="999999999999">
+				        <img src="/plugins/masterslider/blank.gif" data-src="/img/slide-membership.jpg" alt="Item #416" />
+					        <div class="ms-layer ms-caption" data-resize="false">
+					        	<span class="answer">Seeking more secrets?</span>
+					        </div>
+					        <div class="ms-layer ms-reveal" data-resize="false" data-effect="bottom(0|100 , true)" data-delay="1000">
+					        	<span class="riddle">Save on the perks of a museum membership, available for a limited time.</span><br>
+						        <p class="join-button" target="_blank">Compare plans</p>
+					        </div>
+				    </div>
 
-			</div>
+				</div>
+			</a>
 			<!-- end of masterslider -->
 
 		</div>
@@ -66,7 +81,7 @@
 	</section>
 
 	<div id="master-container">
-
+		<div id="membership-benefits"></div>
 		<section id="membership-matters">
 			<div class="tilted-background"></div>
 			<div class="container">
@@ -111,8 +126,8 @@
 				<div class="right-col">
 					<h2>Join by March 21</h2>
 					<h3>and attend the Members-Only Preview of The Secret Lives of Objects</h3>
-					<p>Be the first to uncover the secrets of some of our nearly 22 million amazing artifacts! The exhibit will be continually changing, rotating in new treasures and <i>&mdash;</i> thanks to unlimited admissions <i>&mdash;</i> you'll be able to see them all!</p>
-					<a href="#">Simple and fast membership sign-up &raquo;</a>
+					<p>Be the first to uncover the secrets of some of our nearly 22 million amazing artifacts! The exhibition will be continually changing, rotating in new treasures and <i>&mdash;</i> thanks to unlimited admissions <i>&mdash;</i> you'll be able to see them all!</p>
+					  <a href="https://donatenow.networkforgood.org/BecomeAMemberSpring2015" class="join-button" target="_blank">Join now</a>
 				</div>
 			</div>
 		</section>
@@ -252,22 +267,22 @@
 						<div class="td core-2">
 							<span class="strike">$70<i></i></span>
 							<span class="cost">$59</span>
-							<a href="#" class="join-button">Join now</a>
+							<a href="https://donatenow.networkforgood.org/BecomeAMemberSPR2015CORE2" class="join-button" target="_blank">Join now</a>
 						</div>
 						<div class="td core-4">
 							<span class="strike">$90<i></i></span>
 							<span class="cost">$79</span>
-							<a href="#" class="join-button">Join now</a>
+							<a href="https://donatenow.networkforgood.org/BecomeAMemberSPR2015CORE4" class="join-button" target="_blank">Join now</a>
 						</div>
 						<div class="td prem-2">
 							<span class="strike">$100<i></i></span>
 							<span class="cost">$89</span>
-							<a href="#" class="join-button">Join now</a>
+							<a href="https://donatenow.networkforgood.org/BecomeAMemberSPR2015PREM2" class="join-button" target="_blank">Join now</a>
 						</div>
 						<div class="td prem-4">
 							<span class="strike">$120<i></i></span>
 							<span class="cost">$109</span>
-							<a href="#" class="join-button">Join now</a>
+							<a href="https://donatenow.networkforgood.org/BecomeAMemberSPR2015PREM4" class="join-button" target="_blank">Join now</a>
 						</div>
 						<div class="td td-pad"></div>
 					</div>
@@ -281,8 +296,8 @@
 			<div class="container">
 				<div class="full">
 					<h2>Museum members make an impact</h2>
-					<p>You help us make Chicago's most important stories less of a secret to over a quarter-million people a year <i>&ndash;</i> including 60,000 schoolchildren. You keep our city learning and growing into the future by empowering us to bring the past to life.</em></p>
-					<a href="" class="yellow-button">Join now</a>
+					<p>You help us make Chicago's most important stories less of a secret to more than a quarter-million people a year <i>&ndash;</i> including 60,000 schoolchildren. You keep our city learning and growing into the future by empowering us to bring the past to life.</em></p>
+					  <a href="https://donatenow.networkforgood.org/BecomeAMemberSpring2015" class="join-button" target="_blank">Join now</a>
 				</div>
 			</div>
 		</section>
@@ -299,6 +314,19 @@
 	   $path .= "/inc/js.php";
 	   include_once($path);
 	?>
+	<script>
+		var slider = new MasterSlider();
+		slider.setup('masterslider', {
+		        width:1086,
+		        height:720,
+		        grabCursor:false,
+		        mouse:false,
+		        swipe:false,
+		        endPause:true,
+		        speed:30,
+		        view:'mask'
+		    });
+	</script>
     <?php
 	   $path = $_SERVER['DOCUMENT_ROOT'];
 	   $path .= "/inc/analytics.php";

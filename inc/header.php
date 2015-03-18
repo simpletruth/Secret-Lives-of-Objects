@@ -18,6 +18,7 @@
 	        <li class="nav-link"><a href="#member-events">Members</a></li>
 	        <li class="nav-link"><a href="#social">Social</a></li>
 	        <li class="nav-link"><a href="#special-thanks">Special Thanks</a></li>
+	        <li class="nav-link nav-join"><a href="join/#membership-benefits">Join Now!</a></li>
   		</ul>
 	</div>
 

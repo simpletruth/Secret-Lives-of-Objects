@@ -10,8 +10,6 @@ header#navigation
 			svg
 				height: 77px
 				width: 62px
-		@include media(max-width 28em)
-			width: 55px
 	a.chm-logo
 		display: inline-block
 		padding: 3px
@@ -22,6 +20,8 @@ header#navigation
 			width: 100%
 	@include media(max-width 28em)
 		a.chm-logo
+			position: relative
+			left: -10px
 			width: 130px
 	@include media(max-width 53.75em)
 		&.headroom
@@ -53,7 +53,7 @@ header#navigation
 	a.back-to-home
 		@include transition(color .5s)
 		color: #888
-		display: blcok
+		display: block
 		font-size: em(13)
 		font-family: $ubuntu
 		float: right
@@ -68,7 +68,7 @@ header#navigation
 			span
 				display: none
 
-	@include media(min-width 53.75em max-width 58em)
+	@include media(min-width 53.75em max-width 60em)
 		.nav
 			li
 				padding-left: 9px
