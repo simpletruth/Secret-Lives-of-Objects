@@ -157,9 +157,17 @@
 
 		<section id="member-events">
 			<div class="container">
-					<h2>Want exclusive access?</h2>
-					<p>Join today to enjoy the perks of a museum membership.</p>
-					<a href="/join/#membership-matters" class="membership-button">Become a member</a>
+				<h2>Member events</h2>
+				<article class="left-col">
+					<h3>Tell Me More: An Evening of Museum Secrets</h3>
+					<p>Our collection of millions of artifacts and documents harbors an alluring amount of secrets! The Museum’s chief historian Russell Lewis and vice president John Russick will divulge previously undisclosed facts and tales about our objects.</p>
+					<p>Enjoy a private viewing of <em>The Secret Lives of Objects</em>, and a revealing conversation about the Museum’s most intriguing objects, while enjoying refreshments and a signature cocktail inspired by the city’s storied Pump Room.</p>
+					<p><em>Tuesday, May 19, 6:00<i>&ndash;</i>7:30 <span class="time">PM</span> <br>$20 members, $25 guests. RSVP required.</em></p>
+					<a href="http://www.eventbrite.com/e/member-only-program-tell-me-more-tell-me-more-tickets-15729433158?aff=affiliate8SLOOMicrosite" class="yellow-button" target="_blank">Get tickets</a>
+				</article>
+				<div class="right-col">
+					<a href="/join/" class="membership-button">Want exclusive access? <span>Become a member.</span></a>
+				</div>
 			</div>
 		</section>
 

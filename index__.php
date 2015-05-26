@@ -158,7 +158,7 @@
 		<section id="member-events">
 			<div class="container">
 					<h2>Want exclusive access?</h2>
-					<p>Join today to enjoy the perks of a museum membership.</p>
+					<p>Save on the perks of a museum membership, available for a limited time.</p>
 					<a href="/join/#membership-matters" class="membership-button">Become a member</a>
 			</div>
 		</section>

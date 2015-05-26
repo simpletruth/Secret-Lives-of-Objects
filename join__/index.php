@@ -124,7 +124,8 @@
 					<?php include('../img/secret-lives-logo.svg.php'); ?>
 				</div>
 				<div class="right-col">
-					<h2>Join</h2>
+					<h2>Join by May 31</h2>
+					<h3>To Receive a Limited-Time Offer on Membership</h3>
 					<p>Discover the secrets of some of our nearly 22 million amazing artifacts! The exhibition will be continually changing and rotating in new treasures and <i>&mdash;</i> thanks to unlimited admissions <i>&mdash;</i> you'll be able to see them all!</p>
 					  <a href="https://donatenow.networkforgood.org/BecomeAMemberSpring2015" class="join-button" target="_blank">Join now</a>
 				</div>
@@ -135,7 +136,8 @@
 		<section id="compare">
 			<h2>
 				<div class="container">
-					Join today
+					Join today for limited-time savings
+					<span>Membership discount expires May 31</span>
 				</div>
 			</h2>
 
@@ -263,19 +265,23 @@
 						<div class="td td-pad"></div>
 						<div class="td desc"></div>
 						<div class="td core-2">
-							<span class="cost">$70</span>
+							<span class="strike">$70<i></i></span>
+							<span class="cost">$59</span>
 							<a href="https://donatenow.networkforgood.org/BecomeAMemberSPR2015CORE2" class="join-button" target="_blank">Join now</a>
 						</div>
 						<div class="td core-4">
-							<span class="cost">$90</span>
+							<span class="strike">$90<i></i></span>
+							<span class="cost">$79</span>
 							<a href="https://donatenow.networkforgood.org/BecomeAMemberSPR2015CORE4" class="join-button" target="_blank">Join now</a>
 						</div>
 						<div class="td prem-2">
-							<span class="cost">$100</span>
+							<span class="strike">$100<i></i></span>
+							<span class="cost">$89</span>
 							<a href="https://donatenow.networkforgood.org/BecomeAMemberSPR2015PREM2" class="join-button" target="_blank">Join now</a>
 						</div>
 						<div class="td prem-4">
-							<span class="cost">$120</span>
+							<span class="strike">$120<i></i></span>
+							<span class="cost">$109</span>
 							<a href="https://donatenow.networkforgood.org/BecomeAMemberSPR2015PREM4" class="join-button" target="_blank">Join now</a>
 						</div>
 						<div class="td td-pad"></div>
